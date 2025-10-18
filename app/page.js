@@ -65,7 +65,7 @@ export default function Home() {
 
   const items = [
     <div key="slide1" className="flex flex-row gap-x-10">
-      {/* daktimmer */}
+      {/* charpentes */}
       <div className="card-services">
         <img
           className="image-services"
@@ -77,21 +77,22 @@ export default function Home() {
         <div className="flex flex-col gap-y-3 justify-around h-60">
           {/* title */}
           <div className="overflow-hidden max-w-max h-56">
-            <h4 className="h4">Daktimmers</h4>
+            <h4 className="h4">Charpentes</h4>
             <p className="p small">
-              Daktimmers vormen de ruggengraat van een stevig en goed gebouwd
-              dak. Met meer dan een eeuw ervaring werken wij met hoogwaardige
-              houtsoorten en verfijnde technieken om duurzaamheid, veiligheid en
-              een onberispelijke afwerking te garanderen, zowel bij nieuwbouw
-              als renovaties.
+              Les charpentes forment l'épine dorsale d'un toit solide et bien
+              construit. Avec plus d'un siècle d'expérience, nous travaillons
+              avec des essences de bois de haute qualité et des techniques
+              raffinées pour garantir durabilité, sécurité et une finition
+              irréprochable, tant pour les constructions neuves que pour les
+              rénovations.
             </p>
           </div>
         </div>
         <a className="btn uppercase" href="/services/daktimmer">
-          meer informatie <LuArrowUpRight className="mx-1" />{" "}
+          En savoir plus <LuArrowUpRight className="mx-1" />{" "}
         </a>
       </div>
-      {/* groendaken */}
+      {/* toits végétalisés */}
       <div className="card-services">
         <img
           className="image-services"
@@ -103,20 +104,21 @@ export default function Home() {
         <div className="flex flex-col gap-y-3 justify-around h-60">
           {/* title */}
           <div className="overflow-hidden max-w-max h-56">
-            <h4 className="h4">Groendaken</h4>
+            <h4 className="h4">Toits végétalisés</h4>
             <p className="p small">
-              Groendaken zijn een innovatieve en duurzame oplossing voor zowel
-              residentiële als commerciële gebouwen. Ze verbeteren de
-              energie-efficiëntie, verlengen de levensduur van het dak en dragen
-              bij aan een beter milieu door waterretentie en luchtzuivering.
+              Les toits végétalisés sont une solution innovante et durable pour
+              les bâtiments résidentiels et commerciaux. Ils améliorent
+              l'efficacité énergétique, prolongent la durée de vie du toit et
+              contribuent à un meilleur environnement grâce à la rétention d'eau
+              et à la purification de l'air.
             </p>
           </div>
         </div>
         <a className="btn uppercase" href="/services/groendaken">
-          meer informatie <LuArrowUpRight className="mx-1" />{" "}
+          En savoir plus <LuArrowUpRight className="mx-1" />{" "}
         </a>
       </div>
-      {/* gevelbekleding */}
+      {/* bardage */}
       <div className="card-services">
         <img
           className="image-services"
@@ -128,22 +130,22 @@ export default function Home() {
         <div className="flex flex-col gap-y-3 justify-around h-60">
           {/* title */}
           <div className="overflow-hidden max-w-max h-56">
-            <h4 className="h4">Gevelbekleding</h4>
+            <h4 className="h4">Bardage</h4>
             <p className="p small">
-              Gevelbekleding zorgt voor de esthetische uitstraling en
-              bescherming van uw gebouw. Wij bieden een breed scala aan
-              gevelbekledingdiensten, van installatie tot renovatie, met
-              materialen die zowel visueel aantrekkelijk als functioneel zijn.
+              Le bardage assure l'esthétique et la protection de votre bâtiment.
+              Nous proposons une large gamme de services de bardage, de
+              l'installation à la rénovation, avec des matériaux à la fois
+              esthétiques et fonctionnels.
             </p>
           </div>
         </div>
         <a className="btn uppercase" href="/services/gevelbekleding">
-          meer informatie <LuArrowUpRight className="mx-1" />{" "}
+          En savoir plus <LuArrowUpRight className="mx-1" />{" "}
         </a>
       </div>
     </div>,
     <div key="slide2" className="flex flex-row gap-x-10">
-      {/* plattedaken */}
+      {/* toits plats */}
       <div className="card-services">
         <img
           className="image-services"
@@ -155,22 +157,22 @@ export default function Home() {
         <div className="flex flex-col gap-y-3 justify-around h-60">
           {/* title */}
           <div className="overflow-hidden max-w-max h-56">
-            <h4 className="h4">Platte daken</h4>
+            <h4 className="h4">Toits plats</h4>
             <p className="p small">
-              Platte daken bieden efficiëntie en functionaliteit voor
-              verschillende projecten, en zijn bovendien zeer effectief in
-              waterdichting en isolatie. Met op maat gemaakte oplossingen
-              garanderen we de duurzaamheid en prestaties van uw dak, waarbij we
-              de structuur beschermen tegen klimaatschommelingen en problemen
-              met de afwatering.
+              Les toits plats offrent efficacité et fonctionnalité pour divers
+              projets, et sont particulièrement performants en étanchéité et
+              isolation. Grâce à des solutions sur mesure, nous garantissons la
+              durabilité et les performances de votre toit, en protégeant la
+              structure contre les variations climatiques et les problèmes
+              d'évacuation.
             </p>
           </div>
         </div>
         <a className="btn uppercase" href="/services/plattedaken">
-          meer informatie <LuArrowUpRight className="mx-1" />{" "}
+          En savoir plus <LuArrowUpRight className="mx-1" />{" "}
         </a>
       </div>
-      {/* renovatie */}
+      {/* rénovation */}
       <div className="card-services">
         <img
           className="image-services"
@@ -180,22 +182,21 @@ export default function Home() {
         ></img>
         <div className="flex flex-col gap-y-3 justify-around h-60">
           <div className="overflow-hidden max-w-max h-56">
-            <h4 className="h4">Renovatie</h4>
+            <h4 className="h4">Rénovation</h4>
             <p className="p small">
-              Renovatie is een cruciale stap om uw gebouwen en ruimtes te
-              verbeteren, moderniseren of restaureren. Of het nu gaat om het
-              repareren van schade, het moderniseren van een structuur of het
-              verhogen van de energie-efficiëntie, onze renovatiediensten zijn
-              ontworpen om aan uw behoeften te voldoen, terwijl we uw
-              verwachtingen respecteren.
+              La rénovation est une étape cruciale pour améliorer, moderniser ou
+              restaurer vos bâtiments. Qu'il s'agisse de réparer des dommages,
+              moderniser une structure ou augmenter l'efficacité énergétique,
+              nos services de rénovation sont conçus pour répondre à vos besoins
+              tout en respectant vos attentes.
             </p>
           </div>
         </div>
         <a className="btn uppercase" href="/services/renovatie">
-          meer informatie <LuArrowUpRight className="mx-1" />{" "}
+          En savoir plus <LuArrowUpRight className="mx-1" />{" "}
         </a>
       </div>
-      {/* isolatie */}
+      {/* isolation */}
       <div className="card-services">
         <img
           className="image-services"
@@ -206,18 +207,17 @@ export default function Home() {
         {/* text */}
         <div className="flex flex-col gap-y-3 justify-around h-60">
           <div className="overflow-hidden max-w-max h-56">
-            <h4 className="h4">Isolatie</h4>
+            <h4 className="h4">Isolation</h4>
             <p className="p small">
-              Wij bieden thermische isolatie-oplossingen voor daken die zorgen
-              voor meer comfort en een aanzienlijke vermindering van
-              energiekosten. Onze diensten worden volledig gepersonaliseerd om
-              te voldoen aan de specifieke behoeften van schuine of platte
-              daken.
+              Nous proposons des solutions d'isolation thermique pour toits,
+              garantissant plus de confort et une réduction significative des
+              coûts énergétiques. Nos services sont entièrement personnalisés
+              pour répondre aux besoins spécifiques des toits inclinés ou plats.
             </p>
           </div>
         </div>
         <a className="btn" href="/services/isolatie">
-          MEER INFORMATIE <LuArrowUpRight className="mx-1" />{" "}
+          En savoir plus <LuArrowUpRight className="mx-1" />{" "}
         </a>
       </div>
     </div>,
@@ -225,7 +225,7 @@ export default function Home() {
 
   const itemsMobile = [
     <div key="slide1" className="flex flex-row gap-x-10">
-      {/* Daktimmers */}
+      {/* Charpentes */}
       <div className="card-services">
         <img
           className="image-services"
@@ -237,23 +237,21 @@ export default function Home() {
         <div className="flex flex-col gap-y-3 justify-around h-60">
           {/* title */}
           <div className="overflow-hidden max-w-max lg:h-56">
-            <h4 className="h4">Daktimmers</h4>
+            <h4 className="h4">Charpentes</h4>
             <p className="p small">
-              Daktimmers vormen de ruggengraat van een stevig en goed gebouwd
-              dak. Met meer dan een eeuw ervaring werken wij met hoogwaardige
-              houtsoorten en verfijnde technieken om duurzaamheid, veiligheid en
-              een onberispelijke afwerking te garanderen, zowel bij nieuwbouw
-              als renovaties.
+              Les charpentes forment l'épine dorsale d'un toit solide et bien
+              construit. Avec plus d'un siècle d'expérience, nous assurons
+              durabilité, sécurité et finition soignée.
             </p>
           </div>
         </div>
         <a className="btn uppercase" href="/services/daktimmer">
-          meer informatie <LuArrowUpRight className="mx-1" />{" "}
+          En savoir plus <LuArrowUpRight className="mx-1" />{" "}
         </a>
       </div>
     </div>,
     <div key="slide2" className="flex flex-row gap-x-10">
-      2{/* Plateforme */}
+      {/* Toits plats */}
       <div className="card-services">
         <img
           className="image-services"
@@ -265,24 +263,19 @@ export default function Home() {
         <div className="flex flex-col gap-y-3 justify-around h-60">
           {/* title */}
           <div className="overflow-hidden max-w-max lg:h-56">
-            <h4 className="h4">Platte daken</h4>
+            <h4 className="h4">Toits plats</h4>
             <p className="p small">
-              Platte daken bieden efficiëntie en functionaliteit voor
-              verschillende projecten, en zijn bovendien zeer effectief in
-              waterdichting en isolatie. Met op maat gemaakte oplossingen
-              garanderen we de duurzaamheid en prestaties van uw dak, waarbij we
-              de structuur beschermen tegen klimaatschommelingen en problemen
-              met de afwatering.
+              Solutions sur mesure pour étanchéité et isolation des toits plats.
             </p>
           </div>
         </div>
         <a className="btn uppercase" href="/services/plattedaken">
-          meer informatie <LuArrowUpRight className="mx-1" />{" "}
+          En savoir plus <LuArrowUpRight className="mx-1" />{" "}
         </a>
       </div>
     </div>,
     <div key="slide3" className="flex flex-row gap-x-10">
-      {/* Groendaken */}
+      {/* Toits végétalisés */}
       <div className="card-services">
         <img
           className="image-services"
@@ -294,22 +287,20 @@ export default function Home() {
         <div className="flex flex-col gap-y-3 justify-around h-60">
           {/* title */}
           <div className="overflow-hidden max-w-max lg:h-56">
-            <h4 className="h4">Groendaken</h4>
+            <h4 className="h4">Toits végétalisés</h4>
             <p className="p small">
-              Groendaken zijn een innovatieve en duurzame oplossing voor zowel
-              residentiële als commerciële gebouwen. Ze verbeteren de
-              energie-efficiëntie, verlengen de levensduur van het dak en dragen
-              bij aan een beter milieu door waterretentie en luchtzuivering.
+              Solutions durables améliorant l'efficacité énergétique et
+              l'environnement.
             </p>
           </div>
         </div>
         <a className="btn uppercase" href="/services/groendaken">
-          meer informatie <LuArrowUpRight className="mx-1" />{" "}
+          En savoir plus <LuArrowUpRight className="mx-1" />{" "}
         </a>
       </div>
     </div>,
     <div key="slide4" className="flex flex-row gap-x-10">
-      {/* Gevelbekleding */}
+      {/* Bardage */}
       <div className="card-services">
         <img
           className="image-services"
@@ -321,22 +312,19 @@ export default function Home() {
         <div className="flex flex-col gap-y-3 justify-around h-60">
           {/* title */}
           <div className="overflow-hidden max-w-max lg:h-56">
-            <h4 className="h4">Gevelbekleding</h4>
+            <h4 className="h4">Bardage</h4>
             <p className="p small">
-              Gevelbekleding zorgt voor de esthetische uitstraling en
-              bescherming van uw gebouw. Wij bieden een breed scala aan
-              gevelbekledingdiensten, van installatie tot renovatie, met
-              materialen die zowel visueel aantrekkelijk als functioneel zijn.
+              Esthétique et protection : installation et rénovation de bardages.
             </p>
           </div>
         </div>
         <a className="btn uppercase" href="/services/gevelbekleding">
-          meer informatie <LuArrowUpRight className="mx-1" />{" "}
+          En savoir plus <LuArrowUpRight className="mx-1" />{" "}
         </a>
       </div>
     </div>,
     <div key="slide5" className="flex flex-row gap-x-10">
-      {/* isolatie */}
+      {/* Isolation */}
       <div className="card-services">
         <img
           className="image-services"
@@ -347,23 +335,20 @@ export default function Home() {
         {/* text */}
         <div className="flex flex-col gap-y-3 justify-around h-60">
           <div className="overflow-hidden max-w-max lg:h-56">
-            <h4 className="h4">Isolatie</h4>
+            <h4 className="h4">Isolation</h4>
             <p className="p small">
-              Wij bieden thermische isolatie-oplossingen voor daken die zorgen
-              voor meer comfort en een aanzienlijke vermindering van
-              energiekosten. Onze diensten worden volledig gepersonaliseerd om
-              te voldoen aan de specifieke behoeften van schuine of platte
-              daken.
+              Solutions d'isolation thermique pour plus de confort et
+              d'économies d'énergie.
             </p>
           </div>
         </div>
         <a className="btn" href="/services/isolatie">
-          MEER INFORMATIE <LuArrowUpRight className="mx-1" />{" "}
+          En savoir plus <LuArrowUpRight className="mx-1" />{" "}
         </a>
       </div>
     </div>,
     <div key="slide6" className="flex flex-row gap-x-10">
-      {/* renovatie */}
+      {/* Rénovation */}
       <div className="card-services">
         <img
           className="image-services"
@@ -373,19 +358,15 @@ export default function Home() {
         ></img>
         <div className="flex flex-col gap-y-3 justify-around h-60">
           <div className="overflow-hidden max-w-max lg:h-56">
-            <h4 className="h4">Renovatie</h4>
+            <h4 className="h4">Rénovation</h4>
             <p className="p small">
-              Renovatie is een cruciale stap om uw gebouwen en ruimtes te
-              verbeteren, moderniseren of restaureren. Of het nu gaat om het
-              repareren van schade, het moderniseren van een structuur of het
-              verhogen van de energie-efficiëntie, onze renovatiediensten zijn
-              ontworpen om aan uw behoeften te voldoen, terwijl we uw
-              verwachtingen respecteren.
+              Services de rénovation pour réparer, moderniser et améliorer
+              l'efficacité énergétique.
             </p>
           </div>
         </div>
         <a className="btn uppercase" href="/services/renovatie">
-          meer informatie <LuArrowUpRight className="mx-1" />{" "}
+          En savoir plus <LuArrowUpRight className="mx-1" />{" "}
         </a>
       </div>
     </div>,
@@ -394,7 +375,7 @@ export default function Home() {
   const jsonLdData = {
     "@context": "http://schema.org",
     "@type": "LocalBusiness",
-    name: "schrijnwerkerij de haes",
+    name: "WD Toitures",
     telephone: "015 55 19 35",
     email: "info@schrijnwerkerij-dehaes.be",
     address: {
@@ -425,20 +406,20 @@ export default function Home() {
                   variants={item}
                   className="h1 text-white lg:text-[#ffffff] pb-5"
                 >
-                  Schrijnwerkerij De Haes
+                  WD Toitures
                 </motion.h1>
                 <motion.p
                   variants={item}
                   className="p large text-[#ffffffed] lg:text-[#ffffff] leading-6"
                 >
-                  Traditie en kwaliteit die generaties overstijgen.
+                  Tradition et qualité qui traversent les générations.
                 </motion.p>
                 <JsonLd data={jsonLdData} />
               </div>
               {/* CALL TO ACTION  */}
               <div className="flex flex-col gap-y-2">
                 <a className="btn max-w-max uppercase" href="#contactus">
-                  Contact opnemen
+                  Contactez‑nous
                 </a>
               </div>
             </div>
@@ -462,34 +443,34 @@ export default function Home() {
                       transition={transition1}
                       className="h2"
                     >
-                      Over{" "}
+                      À propos de{" "}
                       <span className="text-[--primary-color] font-bold">
-                        De Haes
+                        WD Toitures
                       </span>
                     </motion.h3>
                   </div>
                 </div>
                 <p className="p md:large w-[20rem] md:w-[32rem] leading-8">
-                  Schrijnwerkerij De Haes is een familiebedrijf dat kan
-                  terugblikken op een eeuw vakmanschap. Met Rudy De Haes, de
-                  huidige zaakvoerder, is het bedrijf al aan de vierde generatie
-                  schrijnwerkers toe. De rode draad door deze familiekroniek is
-                  een grote passie voor 'de stiel', een degelijke vakkennis en
-                  de wil om klanten een optimale kwaliteit en service te bieden,
-                  zoals alleen een familiebedrijf dat kan.
+                  Schrijnwerkerij De Haes est une entreprise familiale avec un
+                  siècle de savoir‑faire. Sous la direction de Rudy De Haes,
+                  l'entreprise en est désormais à sa quatrième génération
+                  d'artisans. Le fil conducteur de cette histoire familiale est
+                  une grande passion pour le métier, un solide savoir‑faire et
+                  la volonté d'offrir aux clients une qualité et un service
+                  optimaux, comme seul un entreprise familiale peut le faire.
                 </p>
                 <p className="p md:large w-[20rem] md:w-[32rem] leading-8">
-                  Zaakvoerder Rudy volgt het technische aspect van ieder project
-                  volledig op. De werknemers zijn hooggekwalificeerd en hebben
-                  elk hun eigen specialiteit. Het resultaat? Een dak dat tot in
-                  de puntjes afgewerkt is.
+                  Le gérant Rudy suit entièrement l'aspect technique de chaque
+                  projet. Les employés sont hautement qualifiés et ont chacun
+                  leur spécialité. Le résultat ? Un toit parfaitement fini
+                  jusque dans les moindres détails.
                 </p>
               </div>
               <a
                 className="btn max-w-max lg:self-start uppercase"
                 href="/about"
               >
-                Meer weten
+                En savoir plus
               </a>
             </div>
             {/* CAROUSEL */}
@@ -507,10 +488,10 @@ export default function Home() {
             {/* text */}
             <div className="flex flex-col items-center md:items-start gap-y-10">
               <h2 className="h2">
-                Uw dak,
+                Votre toit,
                 <span className="text-[--primary-color]">
                   {" "}
-                  onze toewijding!
+                  notre engagement !
                 </span>
               </h2>
 
@@ -522,38 +503,37 @@ export default function Home() {
                   }`}
                 >
                   <p className="p small">
-                    Uw dak verdient het beste op het gebied van kwaliteit,{" "}
-                    <strong>isolatie</strong> en <strong>gafwerking</strong>.
-                    Ons gespecialiseerde team werkt met toewijding om uw
-                    projecten tot leven te brengen, waarbij we functionaliteit
-                    en esthetiek combineren voor het perfecte resultaat. Wat ons
-                    onderscheidt? Onze <strong>passie</strong> voor het vak en
-                    onze inzet om uw verwachtingen te overtreffen, ongeacht de
-                    complexiteit van de opdracht.
+                    Votre toit mérite le meilleur en matière de qualité,
+                    d'isolation et de finition. Notre équipe spécialisée
+                    travaille avec dévouement pour donner vie à vos projets, en
+                    combinant fonctionnalité et esthétique pour un résultat
+                    parfait. Ce qui nous distingue ? Notre passion pour le
+                    métier et notre engagement à dépasser vos attentes, quelle
+                    que soit la complexité de la mission.
                   </p>
                   <p className="p small">
-                    Wij zijn actief in Brussel, Waals-Brabant en omliggende
-                    regio’s en bieden complete dakoplossingen, van klein
-                    onderhoud tot grootschalige renovaties. Met uitgebreide
-                    ervaring in de sector garanderen wij hoogwaardige service,
-                    met oog voor detail en vakmanschap, zowel voor platte als
-                    hellende daken.
+                    Nous intervenons à Bruxelles, dans le Brabant wallon et les
+                    régions avoisinantes et proposons des solutions complètes
+                    pour toits, de la petite maintenance aux rénovations de
+                    grande envergure. Grâce à notre vaste expérience dans le
+                    secteur, nous garantissons un service de haute qualité, avec
+                    une attention au détail et au savoir‑faire, aussi bien pour
+                    les toits plats que inclinés.
                   </p>
                   <p className="p small">
-                    Onze expertise, van generatie op generatie doorgegeven,
-                    stelt ons in staat om alle aspecten van uw dak aan te
-                    pakken, van constructie tot de installatie van afwerkingen
-                    en accessoires. We werken met verschillende soorten{" "}
-                    <strong>
-                      {" "}
-                      dakbedekking, zoals dakpannen, leisteen, zink en aluminium
-                    </strong>
-                    , en bieden daarnaast isolatie- en dakraaminstallaties.
+                    Notre expertise, transmise de génération en génération, nous
+                    permet d'aborder tous les aspects de votre toit, de la
+                    construction à l'installation des finitions et accessoires.
+                    Nous travaillons avec différents types de couvertures, comme
+                    les tuiles, l'ardoise, le zinc et l'aluminium, et proposons
+                    également des installations d'isolation et de fenêtres de
+                    toit.
                   </p>
                   <p className="p small">
-                    Wat uw project ook is, wij leveren een op maat gemaakte
-                    service die perfect aansluit bij uw wensen. Vertrouw op ons
-                    team voor een duurzaam, veilig en perfect afgewerkt dak!
+                    Quel que soit votre projet, nous fournissons un service sur
+                    mesure parfaitement adapté à vos souhaits. Faites confiance
+                    à notre équipe pour un toit durable, sûr et parfaitement
+                    fini !
                   </p>
                 </div>
                 {/* MOBILE */}
@@ -563,32 +543,32 @@ export default function Home() {
                   }`}
                 >
                   <p className="p small">
-                    Uw dak verdient het beste in <strong>kwaliteit</strong>,{" "}
-                    <strong>isolatie</strong> en <strong>afwerking</strong>. Ons
-                    team werkt met toewijding om functionaliteit en esthetiek te
-                    combineren voor het perfecte resultaat. Wat ons
-                    onderscheidt? Onze <strong>passie</strong> en inzet om
-                    altijd uw verwachtingen te overtreffen.
+                    Votre toit mérite le meilleur en qualité, isolation et
+                    finition. Notre équipe travaille avec dévouement pour
+                    combiner fonctionnalité et esthétique pour un résultat
+                    parfait. Ce qui nous distingue ? Notre passion et notre
+                    engagement à toujours dépasser vos attentes.
                   </p>
 
                   <p className="p small">
-                    Wij zijn actief in Brussel, Waals-Brabant en omgeving. Van
-                    klein onderhoud tot renovaties, wij garanderen service van
-                    hoge kwaliteit met oog voor detail en vakmanschap, zowel bij
-                    platte als hellende daken.
+                    Nous intervenons à Bruxelles, dans le Brabant wallon et les
+                    environs. De la petite maintenance aux rénovations, nous
+                    garantissons un service de haute qualité, avec attention au
+                    détail et savoir‑faire, pour toits plats et inclinés.
                   </p>
 
                   <p className="p small">
-                    Met ervaring van generatie op generatie pakken wij alles
-                    aan: constructie, afwerking en accessoires. We werken met{" "}
-                    <strong>dakpannen, leisteen, zink en aluminium</strong>, en
-                    verzorgen ook isolatie- en dakraaminstallaties.
+                    Fort d'une expertise transmise de génération en génération,
+                    nous prenons en charge tous les aspects : construction,
+                    finitions et accessoires. Nous travaillons avec tuiles,
+                    ardoise, zinc et aluminium, et assurons également les
+                    installations d'isolation et de fenêtres de toit.
                   </p>
 
                   <p className="p small">
-                    Voor elk project leveren wij een oplossing op maat. Vertrouw
-                    op ons team voor een duurzaam, veilig en perfect afgewerkt
-                    dak!
+                    Pour chaque projet, nous livrons une solution sur mesure.
+                    Faites confiance à notre équipe pour un toit durable, sûr et
+                    parfaitement fini !
                   </p>
                 </div>
 
@@ -596,12 +576,12 @@ export default function Home() {
                   className="lg:hidden text-lg !text-[--primary-color]"
                   onClick={() => SetExtendedText()}
                 >
-                  {ExtendedText ? "lees minder" : "lees verder..."}
+                  {ExtendedText ? "lire moins" : "lire la suite..."}
                 </button>
               </div>
 
               <a className="btn max-w-max uppercase" href="#contactus">
-                Contact opnemen
+                Contactez‑nous
               </a>
             </div>
           </div>
@@ -609,51 +589,53 @@ export default function Home() {
           {/* bottom text  DESKTOP*/}
           <div className="hidden lg:flex flex-col gap-y-6 max-w-sm md:max-w-xl lg:max-w-screen-2xl">
             <h3 className="h4">
-              Specialisten in{" "}
-              <span className="text-[--primary-color]">Daktimmers</span>
+              Spécialistes en{" "}
+              <span className="text-[--primary-color]">charpentes</span>
             </h3>
             <p className="p small !max-w-screen-lg">
-              Een goed ontworpen <strong>daktimmer</strong> is de ruggengraat
-              van een stevig en duurzaam dak. Het zorgt voor een gelijkmatige
-              gewichtsverdeling en beschermt het gebouw tegen alle
-              weersomstandigheden. Wij werken uitsluitend met hoogwaardige,
-              behandelde houtsoorten die bestand zijn tegen vocht en ongedierte,
-              waardoor een langdurige stabiliteit wordt gegarandeerd. Onze
-              expertise omvat zowel traditionele dakconstructies als moderne
-              spanten, altijd met oog voor precisie en maatwerk.
+              Une charpente bien conçue est l'épine dorsale d'un toit solide et
+              durable. Elle assure une répartition uniforme des charges et
+              protège le bâtiment de toutes les intempéries. Nous n'utilisons
+              que des essences de bois traitées de haute qualité, résistantes à
+              l'humidité et aux nuisibles, garantissant une stabilité durable.
+              Notre expertise couvre les charpentes traditionnelles comme les
+              fermes modernes, avec un souci constant de précision et de
+              personnalisation.
             </p>
             <p className="p small !max-w-screen-lg">
-              Naast een solide structuur is een goed ontwerp essentieel voor
-              optimale ventilatie, thermische isolatie en efficiënte
-              regenwaterafvoer. Door nauwkeurige plaatsing en de juiste
-              materiaalkeuze voorkomen we toekomstige problemen zoals lekkage of
-              verzakking. Of het nu gaat om nieuwbouw of renovatie, wij leveren
-              daktimmers op maat die functionaliteit, duurzaamheid en
-              vakmanschap combineren.
+              Outre une structure solide, une bonne conception est essentielle
+              pour une ventilation optimale, une isolation thermique et un
+              drainage efficace des eaux de pluie. Grâce à un positionnement
+              précis et au choix des bons matériaux, nous évitons des problèmes
+              futurs tels que les fuites ou les affaissements. Qu'il s'agisse de
+              construction neuve ou de rénovation, nous fournissons des
+              charpentes sur mesure qui allient fonctionnalité, durabilité et
+              savoir‑faire.
             </p>
           </div>
           {/* bottom text MOBILE */}
           <div className="lg:hidden flex flex-col gap-y-6 max-w-sm md:max-w-xl lg:max-w-screen-2xl">
             <h3 className="h4 text-center">
-              Specialisten in{" "}
-              <span className="text-[--primary-color]">Daktimmers</span>
+              Spécialistes en{" "}
+              <span className="text-[--primary-color]">charpentes</span>
             </h3>
 
             <p className="p small !max-w-screen-lg">
-              Een goed ontworpen <strong>daktimmer</strong> vormt de basis van
-              een sterk en duurzaam dak. Het verdeelt het gewicht gelijkmatig en
-              beschermt tegen alle weersomstandigheden. Wij gebruiken alleen
-              behandeld hout van hoge kwaliteit, bestand tegen vocht en
-              ongedierte. Onze expertise reikt van traditionele dakconstructies
-              tot moderne spanten, altijd met oog voor maatwerk en precisie.
+              Une charpente bien conçue est la base d'un toit solide et durable.
+              Elle répartit les charges uniformément et protège contre les
+              intempéries. Nous utilisons uniquement du bois traité de haute
+              qualité, résistant à l'humidité et aux parasites, et intervenons
+              tant sur des structures traditionnelles que sur des fermes
+              modernes, avec un souci constant de précision.
             </p>
 
             <p className="p small !max-w-screen-lg">
-              Een slim ontwerp zorgt ook voor ventilatie, isolatie en efficiënte
-              waterafvoer. Met de juiste materialen en plaatsing voorkomen we
-              problemen zoals lekkage of verzakking. Of het nu nieuwbouw of
-              renovatie is, wij leveren daktimmers die functionaliteit,
-              duurzaamheid en vakmanschap combineren.
+              Un bon design assure également une ventilation, une isolation et
+              un drainage efficaces. Avec les matériaux et la mise en œuvre
+              adaptés, nous évitons les problèmes futurs (fuites,
+              affaissements). Que ce soit en construction neuve ou en
+              rénovation, nous livrons des charpentes alliant fonctionnalité,
+              durabilité et savoir‑faire.
             </p>
           </div>
         </section>
@@ -662,14 +644,12 @@ export default function Home() {
       {/* BRANDs and certifications */}
       <section className="container px-5 mx-auto flex flex-col items-center max-w-screen-lg gap-y-6">
         <h3 className="h4 !text-2xl text-center">
-          Schrijnwerkerij De Haes,{" "}
-          <span className="text-[--primary-color]">deskundigen</span> in
-          dakwerken, gevelbekleding, groendaken en isolatie
+          WD Toitures, <span className="text-[--primary-color]">experts</span>{" "}
+          en toitures, bardage, toitures végétalisées et isolation
         </h3>
         <p className="p small text-center !max-w-screen-lg">
-          Wij werken met de beste merken op de markt, van kwaliteitsleveranciers
-          met alle nodige certificeringen:
-          <i> Resitrix, Velux, Iko enertherm, </i>enz.
+          Nous travaillons avec les meilleures marques du marché, auprès de
+          fournisseurs certifiés : <i>Resitrix, Velux, Iko enertherm</i>, etc.
         </p>
 
         <div className="hidden lg:flex flex-row gap-x-20">
@@ -719,7 +699,7 @@ export default function Home() {
         <div className="overflow-hidden max-w-max mx-20">
           <div className="flex flex-row items-center">
             <div className="accent"></div>
-            <h4 className="h5 !text-[--primary-color]">Diensten</h4>
+            <h4 className="h5 !text-[--primary-color]">Services</h4>
           </div>
           <motion.h2
             variants={lefttoright}
@@ -729,7 +709,7 @@ export default function Home() {
             transition={transition1}
             className="h2"
           >
-            Belangrijkste diensten
+            Services principaux
           </motion.h2>
         </div>
 

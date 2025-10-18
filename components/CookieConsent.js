@@ -47,12 +47,12 @@ export default function CookieConsent() {
   return (
     <div className="fixed bottom-0 left-0 w-full bg-[#f5f5f5] p-8 flex flex-col md:flex-row gap-4 justify-between items-center z-50 text-sm">
       <span className="max-w-5xl">
-        We gebruiken cookies en soortgelijke technologieën om je een betere
-        ervaring te bieden, het websiteverkeer te analyseren en inhoud en
-        advertenties te personaliseren. Je kunt alle cookies accepteren of
-        niet-essentiële cookies weigeren. Voor meer details, raadpleeg ons{" "}
+        Nous utilisons des cookies et des technologies similaires pour améliorer
+        votre expérience, analyser le trafic du site et personnaliser le contenu
+        et les publicités. Vous pouvez accepter tous les cookies ou refuser les
+        cookies non essentiels. Pour plus de détails, consultez notre{" "}
         <a href="/dataprotection" className="underline">
-          Meer weten
+          En savoir plus
         </a>
         .
       </span>
@@ -61,13 +61,13 @@ export default function CookieConsent() {
           onClick={acceptAll}
           className="bg-[--primary-color] text-white px-6 py-3 rounded"
         >
-          Alles accepteren
+          Tout accepter
         </button>
         <button
           onClick={rejectAll}
           className="bg-white text-black px-6 py-3 rounded"
         >
-          Alles weigeren
+          Tout refuser
         </button>
       </div>
     </div>

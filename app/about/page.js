@@ -73,51 +73,49 @@ export default function About() {
               <h4 className="h5 !text-[--primary-color]">Onze Geschiedenis</h4>
             </div>
             <h1 className="h3">
-              Vier Generaties van <br /> Uitmuntendheid in Schrijnwerk
+              Quatre générations d'excellence <br /> en menuiserie
             </h1>
           </div>
           <div className="flex flex-col gap-y-6">
             <p className="p small w-[22rem] md:w-[22rem] lg:w-[38rem] leading-8">
-              In het hart van traditioneel vakmanschap begon onze reis meer dan
-              een eeuw geleden, met een onwrikbare toewijding aan kwaliteit en
-              oog voor detail in elk project. Alles begon in 1906, toen Frans De
-              Haes de oude wagenmakerij overnam en een benijdenswaardige
-              reputatie opbouwde. Zijn creaties, van kruiwagens tot
-              transportwagens, stonden synoniem voor duurzaamheid en precisie.
-              Zijn geheim? Droog hout en een scherp oog voor de perfecte
-              afwerking.
+              Au cœur d'un artisanat traditionnel, notre aventure a commencé il
+              y a plus d'un siècle, avec une inébranlable volonté de qualité et
+              une attention méticuleuse aux détails. Tout a commencé en 1906
+              lorsque Frans De Haes reprit une vieille carrosserie et forgea une
+              réputation enviable. Ses réalisations, des brouettes aux véhicules
+              de transport, étaient synonymes de durabilité et de précision. Son
+              secret ? Du bois sec et un sens aigu de la finition parfaite.
             </p>
             <p className="p small w-[22rem] md:w-[22rem] lg:w-[38rem] leading-8">
-              Het nalatenschap van Frans werd voortgezet door zijn zonen,
-              Michiel en Jos, die in 1946 het bedrijf uitbreidden. Onder leiding
-              van Jos evolueerde de werkplaats en paste zich aan de nieuwe
-              marktvraag aan. De focus verschoof naar residentieel schrijnwerk,
-              met specialisaties in daken, ramen, deuren en houten structuren,
-              zonder ooit de kern van traditioneel vakmanschap te verliezen.
+              L'héritage de Frans a été poursuivi par ses fils Michiel et Jos,
+              qui ont développé l'entreprise après 1946. Sous la direction de
+              Jos, l'atelier s'est transformé pour répondre aux nouvelles
+              demandes du marché : la menuiserie résidentielle, les toitures,
+              fenêtres, portes et structures en bois, tout en conservant le cœur
+              du savoir‑faire traditionnel.
             </p>
             <p className="p small w-[22rem] md:w-[22rem] lg:w-[38rem] leading-8">
-              De groei zette door met Marcel De Haes, die de processen
-              moderniseerde en de productiecapaciteit verhoogde, waardoor het
-              bedrijf van één woning per maand naar meerdere constructies per
-              week ging. Innovatie werd een essentieel onderdeel van onze
-              identiteit, zodat elk project met maximale efficiëntie en precisie
-              werd uitgevoerd. Met de tijd nam zijn zoon, Rudy De Haes, het roer
-              over en verstevigde de positie van het bedrijf als marktleider in
-              de sector.
+              La croissance s'est poursuivie avec Marcel De Haes, qui a
+              modernisé les processus et augmenté la capacité de production,
+              faisant passer l'entreprise d'une maison par mois à plusieurs
+              réalisations par semaine. L'innovation est devenue partie
+              intégrante de notre identité, garantissant efficacité et
+              précision. Plus tard, son fils Rudy a pris la direction et a
+              renforcé la position de l'entreprise sur le marché.
             </p>
             <p className="p small w-[22rem] md:w-[22rem] lg:w-[38rem] leading-8">
-              Vandaag houdt de vierde generatie de pioniersgeest van de familie
-              De Haes levend. Wij combineren traditie en technologie om
-              schrijnwerkoplossingen te bieden die generaties overstijgen,
-              altijd met een sterke focus op kwaliteit en klanttevredenheid. Elk
-              dak dat we bouwen, elke deur die we plaatsen en elk detail dat we
-              verfijnen, draagt meer dan 100 jaar ervaring en passie voor het
-              vak in zich.
+              Aujourd'hui, la quatrième génération perpétue l'esprit pionnier de
+              la famille De Haes. Nous combinons tradition et technologie pour
+              proposer des solutions de menuiserie qui traversent les
+              générations, toujours avec un fort accent sur la qualité et la
+              satisfaction client. Chaque toit construit, chaque porte posée et
+              chaque détail soigné reflètent plus de 100 ans d'expérience et de
+              passion pour le métier.
             </p>
             <p className="p small w-[22rem] md:w-[22rem] lg:w-[38rem] leading-8 italic">
               ´
               <strong>
-                Wij bouwen aan de toekomst zonder onze roots te vergeten.
+                Nous construisons l'avenir sans oublier nos racines.
               </strong>
             </p>
           </div>
@@ -155,21 +153,21 @@ export default function About() {
       </section>
 
       <section className="container mx-auto flex flex-col gap-y-6 max-w-sm md:max-w-xl lg:max-w-screen-2xl items-center">
-        <h3 className="h3">Schrijnwerkerijn De Haes</h3>
+        <h3 className="h3">WD Toitures</h3>
 
         <div className="flex flex-col gap-y-4 items-center">
           <p className="p !max-w-screen-lg small">
-            Wij zijn gespecialiseerd in dakwerken, waaronder onderhoud,
-            renovaties, waterdichting, isolatie en dakreparaties. Ongeacht de
-            dienst die u nodig heeft, zorgt ons hooggekwalificeerd team voor
-            kwaliteitsvol werk en een professionele en efficiënte aanpak van uw
-            dak. Uw tevredenheid is onze prioriteit.
+            Nous sommes spécialisés dans les travaux de toiture : entretien,
+            rénovations, étanchéité, isolation et réparations. Quel que soit le
+            service requis, notre équipe hautement qualifiée assure des
+            interventions de qualité et une gestion professionnelle et efficace
+            de votre chantier. Votre satisfaction est notre priorité.
           </p>
           <p className="p !max-w-screen-lg small">
-            Wij hechten veel belang aan een directe en duidelijke communicatie.
-            U krijgt altijd een vast aanspreekpunt om uw project van dichtbij op
-            te volgen en volledige transparantie over de kosten, zodat u precies
-            weet wat u kunt verwachten voordat de werkzaamheden beginnen.
+            Nous privilégions une communication directe et transparente. Vous
+            disposez d'un interlocuteur unique pour suivre votre projet et
+            obtenir une totale clarté sur les coûts avant le démarrage des
+            travaux.
           </p>
         </div>
       </section>

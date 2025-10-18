@@ -36,37 +36,37 @@ import config from "@/utils/config";
 
 const services = [
   {
-    name: "Daktimmers",
+    name: "Charpentes",
     description: "",
     href: "/services/daktimmer",
     icon: AiOutlineFileDone,
   },
   {
-    name: "Groendaken",
+    name: "Toitures végétalisées",
     description: "",
     href: "/services/groendaken",
     icon: BiCheckShield,
   },
   {
-    name: "Gevelbekleding",
+    name: "Bardage",
     description: "",
     href: "/services/gevelbekleding",
     icon: MdOutlineWorkspacePremium,
   },
   {
-    name: "Platte daken",
+    name: "Toits plats",
     description: "",
     href: "/services/plattedaken",
     icon: PhoneIcon,
   },
   {
-    name: "Renovatie",
+    name: "Rénovation",
     description: "",
     href: "/services/renovatie",
     icon: PhoneIcon,
   },
   {
-    name: "Isolatie",
+    name: "Isolation",
     description: "",
     href: "/services/isolatie",
     icon: PhoneIcon,
@@ -74,12 +74,12 @@ const services = [
 ];
 const callsToAction = [
   {
-    name: "Bezoek onze Facebook",
-    href: "https://www.facebook.com/people/Schrijnwerkerij-De-Haes/61552704719361/#",
+    name: "Visitez notre Instagram",
+    href: "https://www.instagram.com/wdtoitures",
     icon: ArrowRightStartOnRectangleIcon,
   },
   {
-    name: "Vraag een offerte aan",
+    name: "Demandez un devis",
     href: `https://api.whatsapp.com/send?phone=${config.whatsappNumber}`,
     icon: ImWhatsapp,
   },
@@ -107,12 +107,12 @@ export default function Header() {
         >
           {/* LOGO */}
           <motion.a variants={dropdown} href="/" className="">
-            <img alt="home" src={config.companyIconPath} className="w-28" />
+            <img alt="home" src={config.companyIconPath} className="w-20" />
           </motion.a>
           {/* INFO */}
           <motion.div variants={dropdown} className="flex flex-col">
             <p className="text-[#121212] p small">{config.ivaNumber}</p>
-            <p className="text-[#121212] p small hidden lg:flex">
+            <p className="text-[#121212] p small lg:flex">
               {config.localAddress}
             </p>
             <div className="flex flex-row items-center gap-x-1 lg:hidden">
@@ -157,18 +157,18 @@ export default function Header() {
                   title="Accueil"
                   className="text-sm font-semibold text-gray-900"
                 >
-                  HOME
+                  ACCUEIL
                 </a>
               </li>
 
               {/* ABOUT US */}
-              <li>
+              <li className="hidden">
                 <a
                   href="/about"
-                  title="Wie zijn we"
+                  title="Qui sommes-nous"
                   className="text-sm font-semibold text-gray-900"
                 >
-                  WIE ZIJN WE
+                  QUI SOMMES-NOUS
                 </a>
               </li>
 
@@ -176,7 +176,7 @@ export default function Header() {
                 <Popover className="relative">
                   <motion.div>
                     <PopoverButton className="flex items-center gap-x-1 text-sm font-semibold text-gray-900">
-                      ONZE DIENSTEN
+                      NOS SERVICES
                       <ChevronDownIcon
                         aria-hidden="true"
                         className="size-5 flex-none text-gray-400"
@@ -239,7 +239,7 @@ export default function Header() {
                   href="/portfolio"
                   className="text-sm font-semibold text-gray-900"
                 >
-                  PROJECTEN
+                  PROJETS
                 </a>
               </li>
 
@@ -271,7 +271,7 @@ export default function Header() {
               <img
                 alt=""
                 src={config.companyIconPath}
-                className="h-16 w-auto"
+                className="h-16 w-auto rounded-sm"
               />
             </a>
             <button
@@ -291,7 +291,7 @@ export default function Header() {
                   href="/"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50"
                 >
-                  HOME
+                  ACCUEIL
                 </a>
                 {/* <a title='nos services' onClick={() => setMobileMenuOpen(false)} href="/services" className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50">
                     ONZE DIENSTEN
@@ -324,16 +324,16 @@ export default function Header() {
                 <a
                   title="aboutus"
                   href="/about"
-                  className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50"
+                  className="-mx-3 hidden rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50"
                 >
-                  WIE ZIJN WE
+                  QUI SOMMES-NOUS
                 </a>
                 <a
                   title="portfolio"
                   href="/portfolio"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50"
                 >
-                  PROJECTEN
+                  PROJETS
                 </a>
                 <a
                   title="contact"

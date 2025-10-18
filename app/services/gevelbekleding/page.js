@@ -14,7 +14,7 @@ export default function Gevelbekleding() {
           <div className="container mx-auto px-4">
             {/* Título */}
             <h2 className="h2 font-bold !text-[--primary-color]">
-              Gevelbekleding
+              Revêtement de façade
             </h2>
 
             {/* Conteúdo com Grid */}
@@ -22,42 +22,42 @@ export default function Gevelbekleding() {
               {/* Texto */}
               <div className="space-y-6">
                 <p className="text-gray-700 p small leading-relaxed">
-                  De <strong className="text-[--primary-color]">gevel</strong>{" "}
-                  van een gebouw speelt een cruciale rol in zowel het uiterlijk
-                  als de bescherming tegen externe factoren. Bij{" "}
+                  La <strong className="text-[--primary-color]">façade</strong>{" "}
+                  d'un bâtiment joue un rôle crucial tant pour l'apparence que
+                  pour la protection contre les agressions extérieures. Chez{" "}
                   <strong className="text-[--primary-color]">
-                    Schrijnwerkerij De Haes
-                  </strong>{" "}
-                  specialiseren wij ons in het aanbrengen van gevelbekleding die
-                  niet alleen de esthetiek van uw woning of bedrijfspand
-                  verbetert, maar ook een sterke barrière biedt tegen de
-                  elementen.
+                    WD Toitures
+                  </strong>
+                  , nous sommes spécialisés dans la pose de revêtements de
+                  façade qui améliorent l'esthétique de votre habitation ou de
+                  votre bâtiment professionnel tout en offrant une protection
+                  durable contre les intempéries.
                 </p>
                 <p className="text-gray-700 p small leading-relaxed">
-                  We bieden een uitgebreide keuze aan materialen voor
-                  gevelbekleding, zoals hout, composiet en metalen panelen,
-                  afhankelijk van uw voorkeur en de vereisten van het gebouw. Of
-                  het nu gaat om het creëren van een moderne uitstraling of het
-                  behouden van een traditioneel karakter, wij zorgen voor een
-                  perfecte afwerking die bij de stijl van uw pand past.
+                  Nous proposons un large choix de matériaux pour le revêtement
+                  de façade — bois, composite ou panneaux métalliques — choisis
+                  selon vos préférences et les contraintes du bâtiment. Que vous
+                  souhaitiez une apparence moderne ou préserver un caractère
+                  traditionnel, nous assurons une finition soignée adaptée au
+                  style de votre bien.
                 </p>
                 <p className="text-gray-700 p small leading-relaxed">
-                  Onze gevelbekleding zorgt voor uitstekende isolatie,
-                  bescherming tegen regen, wind en zon, en biedt een lange
-                  levensduur. We werken nauw samen met u om te zorgen dat uw
-                  gevel niet alleen functioneel is, maar ook visueel
-                  aantrekkelijk en duurzaam blijft, ongeacht de
-                  weersomstandigheden.
+                  Le revêtement de façade assure une isolation renforcée et une
+                  protection contre la pluie, le vent et le soleil, garantissant
+                  une longue durabilité. Nous travaillons en étroite
+                  collaboration avec vous pour que votre façade soit à la fois
+                  fonctionnelle, esthétiquement réussie et durable, quelles que
+                  soient les conditions climatiques.
                 </p>
                 <p className="text-gray-700 p small leading-relaxed">
-                  Met oog voor detail en vakmanschap zorgen wij ervoor dat de
+                  Avec souci du détail en vakmanschap zorgen wij ervoor dat de
                   gevel van uw gebouw niet alleen mooi, maar ook optimaal
                   beschermd is.
                 </p>
                 {/* Call-to-Action */}
                 <div className="mt-10">
                   <a className="btn max-w-max uppercase" href="#contactus">
-                    Vraag een offerte aan
+                    Demandez un devis
                   </a>
                 </div>
               </div>
@@ -81,7 +81,7 @@ export default function Gevelbekleding() {
         <div className="container mx-auto px-4">
           {/* Título */}
           <h2 className="text-3xl font-bold text-black text-center mb-8">
-            Veelgestelde Vragen over Gevelbekleding
+            Questions fréquentes sur le revêtement de façade
           </h2>
 
           {/* Lista de Perguntas e Respostas */}
@@ -89,40 +89,43 @@ export default function Gevelbekleding() {
             {/* Pergunta 1 */}
             <div className="bg-white p-6 rounded-lg shadow-sm">
               <h4 className="text-xl font-semibold text-[--primary-color] mb-2">
-                Wat is gevelbekleding?
+                Qu'est‑ce que le revêtement de façade ?
               </h4>
               <p className="text-gray-700">
-                Gevelbekleding is een beschermende en decoratieve laag die aan
-                de buitenkant van een gebouw wordt aangebracht. Het verbetert
-                niet alleen het uiterlijk, maar biedt ook bescherming tegen
-                weersinvloeden zoals regen, wind en zon.
+                Le revêtement de façade est une couche protectrice et décorative
+                appliquée à l'extérieur d'un bâtiment. Il améliore l'apparence
+                en plus de protéger contre les intempéries telles que la pluie,
+                le vent et le soleil.
               </p>
             </div>
 
             {/* Pergunta 2 */}
             <div className="bg-white p-6 rounded-lg shadow-sm">
               <h4 className="text-xl font-semibold text-[--primary-color] mb-2">
-                Welke materialen kunnen worden gebruikt voor gevelbekleding?
+                Quels matériaux peuvent être utilisés pour le revêtement de
+                façade ?
               </h4>
               <p className="text-gray-700">
-                Wij bieden een uitgebreide keuze aan materialen, waaronder{" "}
-                <strong className="text-[--primary-color]">hout</strong>,{" "}
-                <strong className="text-[--primary-color]">composiet</strong> en{" "}
+                Nous proposons une large gamme de matériaux, notamment le{" "}
+                <strong className="text-[--primary-color]">bois</strong>, le{" "}
+                <strong className="text-[--primary-color]">composite</strong> et
+                les{" "}
                 <strong className="text-[--primary-color]">
-                  metalen panelen
+                  panneaux métalliques
                 </strong>
-                . Elk materiaal heeft zijn eigen voordelen en wordt gekozen op
-                basis van uw voorkeur en de vereisten van het gebouw.
+                . Chaque matériau présente des avantages spécifiques et est
+                sélectionné en fonction de vos préférences et des exigences du
+                bâtiment.
               </p>
             </div>
 
             {/* Pergunta 3 */}
             <div className="bg-white p-6 rounded-lg shadow-sm">
               <h4 className="text-xl font-semibold text-[--primary-color] mb-2">
-                Hoe onderhoud ik gevelbekleding?
+                Comment entretenir le revêtement de façade ?
               </h4>
               <p className="text-gray-700">
-                Het onderhoud hangt af van het gebruikte materiaal. Houten
+                L'entretien hangt af van het gebruikte materiaal. Houten
                 gevelbekleding vereist bijvoorbeeld regelmatig onderhoud zoals
                 schilderen, terwijl composiet en metalen panelen onderhoudsarm
                 zijn. Wij adviseren u graag over het juiste onderhoud.
@@ -132,7 +135,7 @@ export default function Gevelbekleding() {
             {/* Pergunta 4 */}
             <div className="bg-white p-6 rounded-lg shadow-sm">
               <h4 className="text-xl font-semibold text-[--primary-color] mb-2">
-                Is gevelbekleding geschikt voor alle gebouwen?
+                Le revêtement de façade convient‑il à tous les bâtiments ?
               </h4>
               <p className="text-gray-700">
                 Ja, gevelbekleding kan worden toegepast op zowel nieuwe als
@@ -144,7 +147,7 @@ export default function Gevelbekleding() {
             {/* Pergunta 5 */}
             <div className="bg-white p-6 rounded-lg shadow-sm">
               <h4 className="text-xl font-semibold text-[--primary-color] mb-2">
-                Wat zijn de voordelen van gevelbekleding?
+                Quels sont les avantages du revêtement de façade ?
               </h4>
               <p className="text-gray-700">
                 Gevelbekleding biedt{" "}

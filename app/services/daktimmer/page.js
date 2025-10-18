@@ -20,54 +20,46 @@ export default function Daktimmer() {
         <div className="bg-white py-12">
           <div className="container mx-auto px-4">
             {/* Título */}
-            <h2 className="h2 font-bold !text-[--primary-color]">Daktimmers</h2>
+            <h2 className="h2 font-bold !text-[--primary-color]">Charpentes</h2>
 
             {/* Conteúdo com Grid */}
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center mt-8">
               {/* Texto */}
               <div className="space-y-6">
                 <p className="text-gray-700 p small leading-relaxed">
-                  Een goed geconstrueerd dak begint met vakkundig{" "}
+                  Une toiture bien construite commence par une charpente
+                  réalisée par des professionnels. Chez{" "}
                   <strong className="text-[--primary-color]">
-                    daktimmerwerk
+                    WD Toitures
                   </strong>
-                  . Bij{" "}
-                  <strong className="text-[--primary-color]">
-                    Schrijnwerkerij De Haes
-                  </strong>{" "}
-                  hebben we vier generaties ervaring in het ontwerpen en
-                  realiseren van robuuste dakstructuren die bestand zijn tegen
-                  weer en wind.
+                  , nous avons quatre générations d'expérience dans la
+                  conception et la réalisation de structures de toiture robustes
+                  et durables, capables de résister aux intempéries.
                 </p>
                 <p className="text-gray-700 p small leading-relaxed">
-                  Wij bieden maatwerkoplossingen voor zowel nieuwbouw als
-                  renovatieprojecten, waarbij we werken met duurzame houtsoorten
-                  en moderne bouwtechnieken. Onze constructies zijn ontworpen
-                  voor{" "}
-                  <strong className="text-[--primary-color]">
-                    maximale stabiliteit
-                  </strong>{" "}
-                  en draagkracht, wat essentieel is voor een veilig en langdurig
-                  dak.
+                  Nous proposons des solutions sur mesure pour la construction
+                  neuve comme pour la rénovation, en utilisant des essences de
+                  bois durables et des techniques de construction modernes. Nos
+                  structures sont conçues pour assurer une stabilité et une
+                  capacité portante optimales, essentielles à la sécurité et à
+                  la longévité du toit.
                 </p>
                 <p className="text-gray-700 p small leading-relaxed">
-                  Onze diensten omvatten de volledige opbouw van
-                  dakconstructies, inclusief het plaatsen van spanten, gordingen
-                  en kepers. Daarnaast zorgen wij voor de perfecte aansluiting
-                  op dakisolatie en dakbedekking, waardoor uw woning of gebouw
-                  optimaal beschermd blijft tegen weersinvloeden.
+                  Nos prestations incluent la construction complète de la
+                  charpente (pose de fermes, pannes et chevrons) ainsi que la
+                  coordination parfaite avec l'isolation et la couverture, afin
+                  de garantir une protection optimale du bâtiment.
                 </p>
                 <p className="text-gray-700 p small leading-relaxed">
-                  Wij werken nauw samen met onze klanten om een resultaat te
-                  leveren dat niet alleen technisch perfect is, maar ook
-                  esthetisch aansluit bij de stijl van het gebouw. Met precisie
-                  en vakmanschap garanderen wij een dakstructuur die generaties
-                  lang meegaat.
+                  Nous collaborons étroitement avec nos clients pour obtenir un
+                  résultat techniquement impeccable et conforme à l'esthétique
+                  du bâtiment. Avec précision et savoir‑faire, nous assurons des
+                  charpentes qui traversent les générations.
                 </p>
                 {/* Call-to-Action */}
                 <div className="mt-10">
                   <a className="btn max-w-max uppercase" href="#contactus">
-                    Vraag een offerte aan
+                    Demandez un devis
                   </a>
                 </div>
               </div>
@@ -91,69 +83,67 @@ export default function Daktimmer() {
         <div className="container mx-auto px-4">
           {/* Título */}
           <h2 className="text-4xl font-bold text-black text-center mb-8">
-            Veelgestelde Vragen over Daktimmers
+            Questions fréquentes sur les charpentes
           </h2>
 
           <div className="flex flex-col gap-y-4 md:gap-y-10 items-center max-w-2xl mx-auto">
             <Disclosure>
               <DisclosureButton className="group flex items-center  gap-2 text-lg md:text-xl font-semibold text-[--primary-color]">
-                Wat is daktimmerwerk?
+                Qu'est‑ce que la charpente ?
                 <ChevronDownIcon className="w-5 group-data-[open]:rotate-180" />
               </DisclosureButton>
               <DisclosurePanel className="text-gray-500">
-                Daktimmerwerk verwijst naar het vakmanschap van het ontwerpen en
-                bouwen van dakconstructies. Het omvat het plaatsen van spanten,
-                gordingen en kepers om een robuuste en duurzame dakstructuur te
-                creëren.
+                La charpente désigne l'art de concevoir et de construire des
+                structures de toiture. Cela inclut la pose de fermes, pannes et
+                chevrons pour créer une structure robuste et durable.
               </DisclosurePanel>
             </Disclosure>
 
             <Disclosure>
               <DisclosureButton className="group flex items-center  gap-2 text-lg md:text-xl font-semibold text-[--primary-color]">
-                Waarom is een goede dakconstructie belangrijk?
+                Pourquoi une bonne structure de toiture est‑elle importante ?
                 <ChevronDownIcon className="w-5 group-data-[open]:rotate-180" />
               </DisclosureButton>
               <DisclosurePanel className="text-gray-500">
-                Een goede dakconstructie zorgt voor maximale stabiliteit,
-                draagkracht en bescherming tegen weersinvloeden. Het is
-                essentieel voor de veiligheid en duurzaamheid van uw woning of
-                gebouw.
+                Une bonne structure de toiture garantit stabilité, capacité
+                portante et protection contre les intempéries. Elle est
+                essentielle pour la sécurité et la durabilité du bâtiment.
               </DisclosurePanel>
             </Disclosure>
 
             <Disclosure>
               <DisclosureButton className="group flex items-center  gap-2 text-lg md:text-xl font-semibold text-[--primary-color]">
-                Welke materialen worden gebruikt bij daktimmerwerk?
+                Quels matériaux sont utilisés pour la charpente ?
                 <ChevronDownIcon className="w-5 group-data-[open]:rotate-180" />
               </DisclosureButton>
               <DisclosurePanel className="text-gray-500">
-                Wij werken met duurzame houtsoorten en moderne bouwtechnieken om
-                ervoor te zorgen dat uw dakconstructie van hoge kwaliteit is en
-                bestand is tegen de elementen.
+                Nous utilisons des essences de bois durables et des techniques
+                modernes afin d'assurer une charpente de haute qualité,
+                résistante aux éléments.
               </DisclosurePanel>
             </Disclosure>
 
             <Disclosure>
               <DisclosureButton className="group flex items-center  gap-2 text-lg md:text-xl font-semibold text-[--primary-color]">
-                Kan daktimmerwerk worden toegepast bij renovatieprojecten?
+                La charpente peut‑elle être utilisée en rénovation ?
                 <ChevronDownIcon className="w-5 group-data-[open]:rotate-180" />
               </DisclosureButton>
               <DisclosurePanel className="text-gray-500">
-                Ja, wij bieden maatwerkoplossingen voor zowel nieuwbouw als
-                renovatieprojecten. Ons team zorgt ervoor dat de bestaande
-                structuur wordt versterkt en verbeterd.
+                Oui, nous proposons des solutions sur mesure pour la
+                construction neuve et la rénovation. Notre équipe renforce et
+                améliore les structures existantes.
               </DisclosurePanel>
             </Disclosure>
 
             <Disclosure>
               <DisclosureButton className="group flex items-center  gap-2 text-lg md:text-xl font-semibold text-[--primary-color]">
-                Hoe lang duurt het om een dakconstructie te bouwen?
+                Combien de temps faut‑il pour construire une charpente ?
                 <ChevronDownIcon className="w-5 group-data-[open]:rotate-180" />
               </DisclosureButton>
               <DisclosurePanel className="text-gray-500">
-                De duur hangt af van de omvang en complexiteit van het project.
-                Wij zorgen altijd voor een efficiënte planning en uitvoering om
-                uw project op tijd af te ronden.
+                La durée dépend de l'ampleur et de la complexité du projet. Nous
+                planifions et exécutons toujours efficacement pour respecter les
+                délais.
               </DisclosurePanel>
             </Disclosure>
           </div>

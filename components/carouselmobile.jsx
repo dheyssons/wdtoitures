@@ -1,9 +1,9 @@
-'use client';
+"use client";
 
-import { useState } from 'react';
-import { motion, AnimatePresence } from 'framer-motion';
-import { BiChevronRight } from 'react-icons/bi';
-import { BiChevronLeft } from 'react-icons/bi';
+import { useState } from "react";
+import { motion, AnimatePresence } from "framer-motion";
+import { BiChevronRight } from "react-icons/bi";
+import { BiChevronLeft } from "react-icons/bi";
 
 const CarouselMobile = ({ children }) => {
   const [index, setIndex] = useState(0);
@@ -31,19 +31,19 @@ const CarouselMobile = ({ children }) => {
           {children[index]}
         </motion.div>
       </AnimatePresence>
- 
+
       <button
-      title='left button'
+        title="left button"
         onClick={prevSlide}
-        className="absolute left-2 top-1/2 transform -translate-y-1/2 bg-[--primary-color] bg-gradient-to-r from-[#073c68] to-transparent to-70% text-white p-2 rounded-full shadow-lg hover:bg-[#2255a6]"
+        className="absolute left-2 top-1/2 transform -translate-y-1/2 bg-[--primary-color] bg-gradient-to-r from-[#1c1c1c] to-transparent to-70% text-white p-2 rounded-full shadow-lg hover:bg-[#4c4c4c]"
       >
         <BiChevronLeft size={24} />
       </button>
 
       <button
-      title='right button'
+        title="right button"
         onClick={nextSlide}
-        className="absolute right-2 top-1/2 transform -translate-y-1/2 bg-[--primary-color] bg-gradient-to-r from-[#073c68] to-transparent to-70% text-white p-2 rounded-full shadow-lg hover:bg-[#2255a6]"
+        className="absolute right-2 top-1/2 transform -translate-y-1/2 bg-[--primary-color] bg-gradient-to-r from-[#1c1c1c] to-transparent to-70% text-white p-2 rounded-full shadow-lg hover:bg-[#4c4c4c]"
       >
         <BiChevronRight size={24} />
       </button>

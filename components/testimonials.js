@@ -2,10 +2,10 @@ import Star from "./icons/Star";
 
 export default function Testimonials() {
   return (
-    <div className="bg-white py-10 lg:py-20">
+    <div className="hidden bg-white py-10 lg:py-20">
       <div className="container mx-auto max-w-screen-xl px-4">
         <h3 className="h3 font-bold text-center mb-8">
-          Wat Onze Klanten Zeggen
+          Ce que disent nos clients
         </h3>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {/* Depoimento 1 */}
@@ -25,8 +25,8 @@ export default function Testimonials() {
               </svg>
             </div>
             <p className="text-gray-700 italic">
-              "deze schrijnwerker heeft voor mij twee opdrachten uitgevoerd.
-              Telkens correct en degelijk genoeg afgewerkt."
+              "Ce menuisier a réalisé deux travaux Telkens correct en degelijk
+              genoeg afgewerkt."
             </p>
             <p className="text-[--primary-color] font-semibold">
               - Jan Courtois

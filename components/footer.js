@@ -3,7 +3,7 @@
 import { Archivo } from "next/font/google";
 const archivo = Archivo({ subsets: ["latin"], weight: ["400", "600"] });
 
-import { ImWhatsapp, ImInstagram, ImMail2, ImFacebook } from "react-icons/im";
+import { ImWhatsapp, ImInstagram, ImMail2 } from "react-icons/im";
 
 import Link from "next/link";
 import config from "@/utils/config";
@@ -24,36 +24,31 @@ export default function Footer() {
               href="/"
               className={`${archivo.className} p hover:text-[#000000a1] transition-all`}
             >
-              {" "}
-              Home{" "}
+              Accueil
             </a>
             <a
               href="/about"
-              className={`${archivo.className} p hover:text-[#000000a1] transition-all`}
+              className={`${archivo.className} p hidden hover:text-[#000000a1] transition-all`}
             >
-              {" "}
-              Wie zijn we{" "}
+              Qui sommes-nous
             </a>
             <a
               href="/#services"
               className={`${archivo.className} p hover:text-[#000000a1] transition-all`}
             >
-              {" "}
-              Onze Diensten{" "}
+              Nos services
             </a>
             <a
               href="/portfolio"
               className={`${archivo.className} p hover:text-[#000000a1] transition-all`}
             >
-              {" "}
-              Projecten{" "}
+              Projets
             </a>
             <a
               href="/contact"
               className={`${archivo.className} p hover:text-[#000000a1] transition-all`}
             >
-              {" "}
-              Contact{" "}
+              Contact
             </a>
           </div>
           {/* services  */}
@@ -61,49 +56,43 @@ export default function Footer() {
             <p
               className={`${archivo.className} p medium !opacity-100 !text-[#000000] font-[600] leading-[1] after:content-[''] after:w-[3rem] after:mt-1 after:h-[2px] after:bg-[--primary-color] after:block`}
             >
-              Diensten
+              Services
             </p>
             <a
               href="/services/groendaken"
               className={`${archivo.className} p hover:text-[#000000a1] transition-all`}
             >
-              {" "}
-              Groendaken{" "}
+              Toitures végétalisées
             </a>
             <a
               href="/services/gaktimmers"
               className={`${archivo.className} p hover:text-[#000000a1] transition-all`}
             >
-              {" "}
-              Daktimmers{" "}
+              Charpentes
             </a>
             <a
               href="/services/gevelbekleding"
               className={`${archivo.className} p hover:text-[#000000a1] transition-all`}
             >
-              {" "}
-              Gevelbekleding{" "}
+              Bardage
             </a>
             <a
               href="/services/plattedaken"
               className={`${archivo.className} p hover:text-[#000000a1] transition-all`}
             >
-              {" "}
-              Platte daken{" "}
+              Toits plats
             </a>
             <a
               href="/services/renovatie"
               className={`${archivo.className} p hover:text-[#000000a1] transition-all`}
             >
-              {" "}
-              Renovatie{" "}
+              Rénovation
             </a>
             <a
               href="/services/isolatie"
               className={`${archivo.className} p hover:text-[#000000a1] transition-all`}
             >
-              {" "}
-              Isolatie{" "}
+              Isolation
             </a>
           </div>
 
@@ -112,7 +101,7 @@ export default function Footer() {
             <div className="flex flex-col items-center w-full max-w-[30rem]">
               <img
                 src={config.companyIconPath}
-                className="w-full max-w-[128px] h-full max-h-[128px] mb-3"
+                className="h-full w-20 mb-3 rounded-sm"
                 alt=""
               />
               <p
@@ -147,11 +136,11 @@ export default function Footer() {
                     <li className="flex flex-row items-center">
                       <a
                         className="social_link btn"
-                        href={config.facebookProfile}
+                        href={config.instagramProfile}
                         target="_blank"
                       >
-                        <ImFacebook className="mr-2" />
-                        Facebook
+                        <ImInstagram className="mr-2" />
+                        Instagram
                       </a>
                     </li>
                     <li className="flex flex-row items-center">
@@ -183,32 +172,32 @@ export default function Footer() {
               className="text-sm text-[--primary-color] underline underline-offset-2 hover:opacity-70"
               href="/dataprotection"
             >
-              Gegevensbescherming
+              Protection des données
             </a>
             <a
               className="text-sm text-[--primary-color] underline underline-offset-2 hover:opacity-70"
               href="/generalconditions"
             >
-              Algemene Voorwaarden
+              Conditions Générales
             </a>
             <a
               className="text-sm text-[--primary-color] underline underline-offset-2 hover:opacity-70"
               href="/legalnotices"
             >
-              Juridische Mededelingen
+              Mentions légales
             </a>
             <a
               className="text-sm text-[--primary-color] underline underline-offset-2 hover:opacity-70"
               href="/privacypolicy"
             >
-              Privacybeleid
+              Politique de confidentialité
             </a>
           </div>
 
           <p
             className={`${archivo.className} p small self-center text-center m-[1rem]`}
           >
-            Ontwikkeld door{" "}
+            Développé par{" "}
             <a
               className="text-[--primary-color] hover:opacity-70 underline underline-offset-2"
               href="https://hdeveloper.vercel.app/"
