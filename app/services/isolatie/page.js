@@ -23,7 +23,7 @@ export default function Isolatie() {
                   Une isolation de toiture appropriée est essentielle pour
                   optimiser la{" "}
                   <strong className="text-[--primary-color]">
-                    performance énergétique
+                    performance énergétique&nbsp;
                   </strong>
                   et garantir un confort intérieur tout au long de l'année. Nous
                   utilisons des matériaux de haute qualité, comme la laine
@@ -45,7 +45,9 @@ export default function Isolatie() {
                 </p>
                 <p className="text-gray-700 p small leading-relaxed">
                   Avec notre exigence de{" "}
-                  <strong className="text-[--primary-color]">qualité</strong>
+                  <strong className="text-[--primary-color]">
+                    qualité &nbsp;
+                  </strong>
                   et d'
                   <strong className="text-[--primary-color]">efficacité</strong>
                   , nous vous offrons une toiture qui conserve une température

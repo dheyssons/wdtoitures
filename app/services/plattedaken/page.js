@@ -48,8 +48,8 @@ export default function Plattedaken() {
                   intempéries.
                 </p>
                 <p className="text-gray-700 p small leading-relaxed">
-                  Dankzij onze ervaring kunt u rekenen op de zekerheid van een
-                  goed gebouwd en hoogwaardig plat dak.
+                  Grâce à notre expérience, vous pouvez compter sur la certitude
+                  d'un toit plat bien construit et de haute qualité.
                 </p>
                 {/* Call-to-Action */}
                 <div className="mt-10">
@@ -98,54 +98,52 @@ export default function Plattedaken() {
             {/* Pergunta 2 */}
             <div className="bg-white p-6 rounded-lg shadow-sm">
               <h4 className="text-xl font-semibold text-[--primary-color] mb-2">
-                Comment wordt de afwatering van regenwater geregeld bij een plat
-                dak?
+                Comment l'évacuation des eaux pluviales est‑elle gérée pour un
+                toit plat ?
               </h4>
               <p className="text-gray-700">
-                Pour éviter les fuites, wij zorgen voor een subtiele helling die
-                met het blote oog niet zichtbaar is en installeren we geschikte
-                waterafvoeren om het snel naar de afvoer en goten te leiden.
+                Pour éviter les fuites, nous créons une légère pente invisible à
+                l'œil nu et installons des évacuations adaptées pour diriger
+                l'eau vers les gouttières et les drains.
               </p>
             </div>
 
             {/* Pergunta 3 */}
             <div className="bg-white p-6 rounded-lg shadow-sm">
               <h4 className="text-xl font-semibold text-[--primary-color] mb-2">
-                Quels materialen worden gebruikt voor dakbedekking van platte
-                daken?
+                Quels matériaux sont utilisés pour la couverture des toits
+                plats ?
               </h4>
               <p className="text-gray-700">
-                Wij bieden twee opties:{" "}
-                <strong className="text-[--primary-color]">EPDM</strong>, een
-                synthetisch rubber dat bestand is tegen UV-straling, en{" "}
-                <strong className="text-[--primary-color]">
-                  bitumen dakbedekking
-                </strong>
-                , met een levensduur van meer dan 30 jaar.
+                Nous proposons deux options :{" "}
+                <strong className="text-[--primary-color]">EPDM</strong>, un
+                caoutchouc synthétique résistant aux UV, et{" "}
+                <strong className="text-[--primary-color]">le bitume</strong>,
+                offrant une durée de vie supérieure à 30 ans.
               </p>
             </div>
 
             {/* Pergunta 4 */}
             <div className="bg-white p-6 rounded-lg shadow-sm">
               <h4 className="text-xl font-semibold text-[--primary-color] mb-2">
-                Un plat dak geschikt voor alle gebouwen?
+                Un toit plat est‑il adapté à tous les bâtiments ?
               </h4>
               <p className="text-gray-700">
-                Ja, platte daken kunnen worden toegepast op zowel nieuwe als
-                bestaande gebouwen. Wij zorgen voor een oplossing die perfect
-                aansluit bij de stijl en structuur van uw pand.
+                Oui, les toits plats peuvent être installés sur des bâtiments
+                neufs comme sur des édifices existants. Nous proposons une
+                solution adaptée au style et à la structure de votre bâtiment.
               </p>
             </div>
 
             {/* Pergunta 5 */}
             <div className="bg-white p-6 rounded-lg shadow-sm">
               <h4 className="text-xl font-semibold text-[--primary-color] mb-2">
-                Wat zijn de belangrijkste aandachtspunten bij een plat dak?
+                Quels sont les points d'attention principaux pour un toit plat ?
               </h4>
               <p className="text-gray-700">
-                Les points clés zijn een goede afwatering, hoogwaardige
-                dakbedekking en regelmatig onderhoud om de levensduur van het
-                dak te garanderen.
+                Les points clés sont une bonne évacuation, une couverture de
+                haute qualité et un entretien régulier pour garantir la durée de
+                vie du toit.
               </p>
             </div>
           </div>

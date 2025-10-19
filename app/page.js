@@ -69,7 +69,7 @@ export default function Home() {
       <div className="card-services">
         <img
           className="image-services"
-          alt="bardage"
+          alt="charpente"
           src="images/services/charpenter.webp"
           loading="lazy"
         ></img>
@@ -96,7 +96,7 @@ export default function Home() {
       <div className="card-services">
         <img
           className="image-services"
-          alt="groendaken"
+          alt="toits végétalisés"
           src="images/services/groendaken/image1.webp"
           loading="lazy"
         ></img>
@@ -122,7 +122,7 @@ export default function Home() {
       <div className="card-services">
         <img
           className="image-services"
-          alt="gevelbekleding"
+          alt="bardage"
           src="images/services/gevelbekleding/image1.webp"
           loading="lazy"
         ></img>
@@ -149,7 +149,7 @@ export default function Home() {
       <div className="card-services">
         <img
           className="image-services"
-          alt="plateforme"
+          alt="toits plats"
           src="images/services/plateforme.webp"
           loading="lazy"
         ></img>
@@ -176,7 +176,7 @@ export default function Home() {
       <div className="card-services">
         <img
           className="image-services"
-          alt="renovatie"
+          alt="rénovation"
           src="images/services/renovation.webp"
           loading="lazy"
         ></img>
@@ -200,7 +200,7 @@ export default function Home() {
       <div className="card-services">
         <img
           className="image-services"
-          alt="isolatie"
+          alt="isolation"
           src="images/services/isolatie.webp"
           loading="lazy"
         ></img>
@@ -229,7 +229,7 @@ export default function Home() {
       <div className="card-services">
         <img
           className="image-services"
-          alt="bardage"
+          alt="charpente"
           src="images/services/charpenter.webp"
           loading="lazy"
         ></img>
@@ -255,7 +255,7 @@ export default function Home() {
       <div className="card-services">
         <img
           className="image-services"
-          alt="plateforme"
+          alt="toits plats"
           src="images/services/plateforme.webp"
           loading="lazy"
         ></img>
@@ -279,7 +279,7 @@ export default function Home() {
       <div className="card-services">
         <img
           className="image-services"
-          alt="groendaken"
+          alt="toits végétalisés"
           src="images/services/groendaken/image1.webp"
           loading="lazy"
         ></img>
@@ -304,7 +304,7 @@ export default function Home() {
       <div className="card-services">
         <img
           className="image-services"
-          alt="gevelbekleding"
+          alt="bardage"
           src="images/services/gevelbekleding/image1.webp"
           loading="lazy"
         ></img>
@@ -328,7 +328,7 @@ export default function Home() {
       <div className="card-services">
         <img
           className="image-services"
-          alt="isolatie"
+          alt="isolation"
           src="images/services/isolatie.webp"
           loading="lazy"
         ></img>
@@ -352,7 +352,7 @@ export default function Home() {
       <div className="card-services">
         <img
           className="image-services"
-          alt="renovatie"
+          alt="rénovation"
           src="images/services/renovation.webp"
           loading="lazy"
         ></img>
@@ -376,8 +376,8 @@ export default function Home() {
     "@context": "http://schema.org",
     "@type": "LocalBusiness",
     name: "WD Toitures",
-    telephone: "015 55 19 35",
-    email: "info@schrijnwerkerij-dehaes.be",
+    telephone: "472 93 17 55",
+    email: "wdtoitures@gmail.com",
     address: {
       "@type": "PostalAddress",
       postalCode: "2806",
@@ -412,7 +412,7 @@ export default function Home() {
                   variants={item}
                   className="p large text-[#ffffffed] lg:text-[#ffffff] leading-6"
                 >
-                  Tradition et qualité qui traversent les générations.
+                  Bâtir la confiance, un toit à la fois
                 </motion.p>
                 <JsonLd data={jsonLdData} />
               </div>
@@ -426,8 +426,35 @@ export default function Home() {
           </motion.div>
         </section>
 
+        {/* SCROLL INDICATOR - chevron indiquant du contenu dessous */}
+        <a
+          href="#about"
+          aria-label="Descendre vers la section À propos"
+          className="absolute bottom-8 left-1/2 transform -translate-x-1/2 flex flex-col items-center gap-2 text-white opacity-90 hover:opacity-100"
+        >
+          <span className="text-md tracking-wide">Voir plus</span>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            className="w-8 h-8 text-white animate-bounce"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+            strokeWidth={2}
+            aria-hidden="true"
+          >
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              d="M19 9l-7 7-7-7"
+            />
+          </svg>
+        </a>
+
         {/* ABOUT US */}
-        <section className="container px-5 mx-auto flex flex-col items-center gap-y-24 lg:gap-y-28 py-20">
+        <section
+          id="about"
+          className="container px-5 mx-auto flex flex-col items-center gap-y-24 lg:gap-y-28 py-20"
+        >
           {/* about */}
           <div className="flex flex-col lg:flex-row items-center gap-10 lg:gap-y-20">
             {/* texts */}
@@ -451,27 +478,27 @@ export default function Home() {
                   </div>
                 </div>
                 <p className="p md:large w-[20rem] md:w-[32rem] leading-8">
-                  Schrijnwerkerij De Haes est une entreprise familiale avec un
-                  siècle de savoir‑faire. Sous la direction de Rudy De Haes,
-                  l'entreprise en est désormais à sa quatrième génération
-                  d'artisans. Le fil conducteur de cette histoire familiale est
-                  une grande passion pour le métier, un solide savoir‑faire et
-                  la volonté d'offrir aux clients une qualité et un service
-                  optimaux, comme seul un entreprise familiale peut le faire.
+                  Depuis de nombreuses années, WD Toitures est votre partenaire
+                  de confiance en Belgique pour tous vos besoins en matière de
+                  couverture et de toitures. Fort de notre expertise et de notre
+                  engagement envers l'excellence, nous proposons des solutions
+                  complètes et durables pour vos projets résidentiels,
+                  commerciaux et industriels.
                 </p>
                 <p className="p md:large w-[20rem] md:w-[32rem] leading-8">
-                  Le gérant Rudy suit entièrement l'aspect technique de chaque
-                  projet. Les employés sont hautement qualifiés et ont chacun
-                  leur spécialité. Le résultat ? Un toit parfaitement fini
-                  jusque dans les moindres détails.
+                  Notre mission est simple : offrir des services de toiture de
+                  qualité supérieure avec un professionnalisme irréprochable.
+                  Nous croyons que chaque projet mérite une attention
+                  particulière et une exécution impeccable. Vos toits méritent
+                  les meilleures mains.
                 </p>
               </div>
-              <a
+              {/* <a
                 className="btn max-w-max lg:self-start uppercase"
                 href="/about"
               >
                 En savoir plus
-              </a>
+              </a> */}
             </div>
             {/* CAROUSEL */}
             <EmblaCarousel></EmblaCarousel>
@@ -481,7 +508,7 @@ export default function Home() {
           <div className="flex flex-col lg:flex-row gap-x-12">
             {/* image */}
             <Image
-              className="rounded-md hidden lg:block"
+              className="rounded-md hidden lg:block w-96 object-cover"
               src={AboutImage}
               alt=""
             />
@@ -521,13 +548,12 @@ export default function Home() {
                     les toits plats que inclinés.
                   </p>
                   <p className="p small">
-                    Notre expertise, transmise de génération en génération, nous
-                    permet d'aborder tous les aspects de votre toit, de la
-                    construction à l'installation des finitions et accessoires.
-                    Nous travaillons avec différents types de couvertures, comme
-                    les tuiles, l'ardoise, le zinc et l'aluminium, et proposons
-                    également des installations d'isolation et de fenêtres de
-                    toit.
+                    Notre expertise nous permet d'aborder tous les aspects de
+                    votre toit, de la construction à l'installation des
+                    finitions et accessoires. Nous travaillons avec différents
+                    types de couvertures, comme les tuiles, l'ardoise, le zinc
+                    et l'aluminium, et proposons également des installations
+                    d'isolation et de fenêtres de toit.
                   </p>
                   <p className="p small">
                     Quel que soit votre projet, nous fournissons un service sur
@@ -587,7 +613,7 @@ export default function Home() {
           </div>
 
           {/* bottom text  DESKTOP*/}
-          <div className="hidden lg:flex flex-col gap-y-6 max-w-sm md:max-w-xl lg:max-w-screen-2xl">
+          {/* <div className="hidden lg:flex flex-col gap-y-6 max-w-sm md:max-w-xl lg:max-w-screen-2xl">
             <h3 className="h4">
               Spécialistes en{" "}
               <span className="text-[--primary-color]">charpentes</span>
@@ -612,12 +638,12 @@ export default function Home() {
               charpentes sur mesure qui allient fonctionnalité, durabilité et
               savoir‑faire.
             </p>
-          </div>
+          </div> */}
           {/* bottom text MOBILE */}
-          <div className="lg:hidden flex flex-col gap-y-6 max-w-sm md:max-w-xl lg:max-w-screen-2xl">
+          {/* <div className="lg:hidden flex flex-col gap-y-6 max-w-sm md:max-w-xl lg:max-w-screen-2xl">
             <h3 className="h4 text-center">
               Spécialistes en{" "}
-              <span className="text-[--primary-color]">charpentes</span>
+              <span className="text-[--primary-color]">toiture</span>
             </h3>
 
             <p className="p small !max-w-screen-lg">
@@ -637,7 +663,7 @@ export default function Home() {
               rénovation, nous livrons des charpentes alliant fonctionnalité,
               durabilité et savoir‑faire.
             </p>
-          </div>
+          </div> */}
         </section>
       </div>
 

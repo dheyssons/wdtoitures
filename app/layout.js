@@ -21,7 +21,7 @@ const archivo = localFont({
 });
 
 export const metadata = {
-  title: "Schrijnwerkerij de haes",
+  title: "WD Toitures",
   description:
     "Algemene binnen en buitenschrijnwerkerij - Daktimmers, dakbedekking, gevelbekleding en terassen",
 };
@@ -58,7 +58,7 @@ export default function RootLayout({ children }) {
         />
         <meta
           name="keywords"
-          content="schrijnwerkerij, de haes, sd schrijnwerkerij, schrijnwerkerij mb, sbk schrijnwerkerij, Belgique, carpentry"
+          content="schrijnwerkerij, wd toitures, sd schrijnwerkerij, schrijnwerkerij mb, sbk schrijnwerkerij, Belgique, carpentry"
         ></meta>
       </head>
 

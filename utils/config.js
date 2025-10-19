@@ -1,6 +1,6 @@
 const config = {
   companyName: "WD Toitures",
-  companySlogan: "Traditie en kwaliteit die generaties overstijgen.",
+  companySlogan: "Bâtir la confiance, un toit à la fois",
   companyIconPath: "/logo.png",
   ivaNumber: "",
   whatsappNumber: "32472931755",

@@ -32,9 +32,9 @@ export default function Daktimmer() {
                   <strong className="text-[--primary-color]">
                     WD Toitures
                   </strong>
-                  , nous avons quatre générations d'expérience dans la
-                  conception et la réalisation de structures de toiture robustes
-                  et durables, capables de résister aux intempéries.
+                  , nous avons l'expérience dans la conception et la réalisation
+                  de structures de toiture robustes et durables, capables de
+                  résister aux intempéries.
                 </p>
                 <p className="text-gray-700 p small leading-relaxed">
                   Nous proposons des solutions sur mesure pour la construction

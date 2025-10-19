@@ -50,9 +50,9 @@ export default function Gevelbekleding() {
                   soient les conditions climatiques.
                 </p>
                 <p className="text-gray-700 p small leading-relaxed">
-                  Avec souci du détail en vakmanschap zorgen wij ervoor dat de
-                  gevel van uw gebouw niet alleen mooi, maar ook optimaal
-                  beschermd is.
+                  Soucieux du détail et du savoir‑faire, nous veillons à ce que
+                  la façade de votre bâtiment soit non seulement esthétique,
+                  mais aussi parfaitement protégée.
                 </p>
                 {/* Call-to-Action */}
                 <div className="mt-10">
@@ -66,7 +66,7 @@ export default function Gevelbekleding() {
               <div className="rounded-md max-w-lg overflow-hidden shadow-md">
                 <Image
                   src={GevelbekledingImage} // Substitua pela imagem correta
-                  alt="Daktimmers"
+                  alt="Revêtement de façade"
                   className=""
                   loading="lazy"
                 />
@@ -125,10 +125,11 @@ export default function Gevelbekleding() {
                 Comment entretenir le revêtement de façade ?
               </h4>
               <p className="text-gray-700">
-                L'entretien hangt af van het gebruikte materiaal. Houten
-                gevelbekleding vereist bijvoorbeeld regelmatig onderhoud zoals
-                schilderen, terwijl composiet en metalen panelen onderhoudsarm
-                zijn. Wij adviseren u graag over het juiste onderhoud.
+                L'entretien dépend du matériau utilisé. Le bardage en bois
+                nécessite par exemple un entretien régulier (peinture,
+                traitement), tandis que le composite et les panneaux métalliques
+                demandent peu d'entretien. Nous vous conseillons volontiers sur
+                l'entretien adapté.
               </p>
             </div>
 
@@ -138,9 +139,9 @@ export default function Gevelbekleding() {
                 Le revêtement de façade convient‑il à tous les bâtiments ?
               </h4>
               <p className="text-gray-700">
-                Ja, gevelbekleding kan worden toegepast op zowel nieuwe als
-                bestaande gebouwen. Wij zorgen voor een oplossing die perfect
-                aansluit bij de stijl en structuur van uw pand.
+                Oui, le revêtement de façade peut être appliqué sur des
+                bâtiments neufs comme existants. Nous proposons une solution qui
+                s'adapte parfaitement au style et à la structure de votre bien.
               </p>
             </div>
 
@@ -150,21 +151,9 @@ export default function Gevelbekleding() {
                 Quels sont les avantages du revêtement de façade ?
               </h4>
               <p className="text-gray-700">
-                Gevelbekleding biedt{" "}
-                <strong className="text-[--primary-color]">
-                  uitstekende isolatie
-                </strong>
-                , bescherming tegen{" "}
-                <strong className="text-[--primary-color]">
-                  weersinvloeden
-                </strong>
-                , en een{" "}
-                <strong className="text-[--primary-color]">
-                  lange levensduur
-                </strong>
-                . Bovendien verbetert het de{" "}
-                <strong className="text-[--primary-color]">esthetiek</strong>{" "}
-                van uw gebouw.
+                Le revêtement de façade offre une excellente isolation, une
+                protection contre les intempéries et une grande durabilité. De
+                plus, il améliore l'esthétique de votre bâtiment.
               </p>
             </div>
           </div>

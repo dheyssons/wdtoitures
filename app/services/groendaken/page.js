@@ -30,18 +30,20 @@ export default function Groendaken() {
                   nombreux avantages fonctionnels. Grâce aux capacités
                   d'isolation naturelles des végétaux, il régule la température
                   intérieure, réduisant ainsi les besoins en{" "}
-                  <strong className="text-[--primary-color]">chauffage</strong>
+                  <strong className="text-[--primary-color]">
+                    chauffage&nbsp;
+                  </strong>
                   et en{" "}
                   <strong className="text-[--primary-color]">
                     climatisation
                   </strong>
                   . Cela peut entraîner des{" "}
                   <strong className="text-[--primary-color]">
-                    économies d'énergie
+                    économies d'énergie&nbsp;
                   </strong>
                   et un meilleur{" "}
                   <strong className="text-[--primary-color]">
-                    confort thermique
+                    confort thermique&nbsp;
                   </strong>
                   tout au long de l'année.
                 </p>

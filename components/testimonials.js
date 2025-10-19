@@ -25,8 +25,8 @@ export default function Testimonials() {
               </svg>
             </div>
             <p className="text-gray-700 italic">
-              "Ce menuisier a réalisé deux travaux Telkens correct en degelijk
-              genoeg afgewerkt."
+              "Ce menuisier a réalisé deux travaux pour moi. À chaque fois, le
+              travail a été effectué correctement et de manière soignée."
             </p>
             <p className="text-[--primary-color] font-semibold">
               - Jan Courtois
@@ -42,8 +42,8 @@ export default function Testimonials() {
               <Star></Star>
             </div>
             <p className="text-gray-700 italic">
-              "Ze doen daktimmers en dakbedekking en gevelbekleding alleen maar
-              positieve ervaring"
+              "Ils réalisent des charpentes, des toitures et du bardage — mon
+              expérience avec eux a toujours été positive."
             </p>
             <p className="text-[--primary-color] font-semibold">
               - Yves Sijmus
@@ -58,7 +58,9 @@ export default function Testimonials() {
               <Star></Star>
               <Star></Star>
             </div>
-            <p className="text-gray-700 italic">"Goed gelegen in industrie"</p>
+            <p className="text-gray-700 italic">
+              "Bien situé dans la zone industrielle"
+            </p>
             <p className="text-[--primary-color] font-semibold">
               - Robert Leonard
             </p>
