@@ -23,7 +23,7 @@ const archivo = localFont({
 export const metadata = {
   title: "WD Toitures",
   description:
-    "Algemene binnen en buitenschrijnwerkerij - Daktimmers, dakbedekking, gevelbekleding en terassen",
+    "Experts en toitures: Rénovations, réparations, nettoyage, démoussage et toits plat",
 };
 
 import "./globals.css";
@@ -58,7 +58,7 @@ export default function RootLayout({ children }) {
         />
         <meta
           name="keywords"
-          content="schrijnwerkerij, wd toitures, sd schrijnwerkerij, schrijnwerkerij mb, sbk schrijnwerkerij, Belgique, carpentry"
+          content="démoussage, wd toitures, rénovation, toiture, réparations, nettoyage, Belgique, plate forme"
         ></meta>
       </head>
 

@@ -164,15 +164,15 @@ export default function Portfolio() {
             dragConstraints={{ right: 0, left: -width }}
             initial={{ x: 0 }}
             animate={{ x: [0, -width] }}
-            transition={{ ease: "linear", duration: 40, repeat: Infinity }}
+            transition={{ ease: "linear", duration: 50, repeat: Infinity }}
           >
             {images.concat(images).map((src, index) => (
-              <div key={index} className="min-w-[300px]">
+              <div key={index} className="min-w-[256px]">
                 <Image
                   src={src}
                   alt={`Slide ${index}`}
-                  width={300}
-                  height={200}
+                  width={256}
+                  height={128}
                   className="w-full h-full rounded-lg shadow-lg object-cover"
                 />
               </div>
@@ -209,7 +209,7 @@ export default function Portfolio() {
                     Sint-Katelijne-Waver
                   </h5>
                 </div>
-                <h3 className="h3">Zinguerie et couverture</h3>
+                <h3 className="h3">Finition</h3>
               </div>
 
               <Carousel>{sint2}</Carousel>

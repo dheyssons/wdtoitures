@@ -74,7 +74,7 @@ export default function Home() {
           loading="lazy"
         ></img>
         {/* text */}
-        <div className="flex flex-col gap-y-3 justify-around h-60">
+        <div className="flex flex-col gap-y-3 justify-around h-32">
           {/* title */}
           <div className="overflow-hidden max-w-max h-56">
             <h4 className="h4">Charpentes</h4>
@@ -234,7 +234,7 @@ export default function Home() {
           loading="lazy"
         ></img>
         {/* text */}
-        <div className="flex flex-col gap-y-3 justify-around h-60">
+        <div className="flex flex-col gap-y-3 justify-around h-36">
           {/* title */}
           <div className="overflow-hidden max-w-max lg:h-56">
             <h4 className="h4">Charpentes</h4>
@@ -260,7 +260,7 @@ export default function Home() {
           loading="lazy"
         ></img>
         {/* text */}
-        <div className="flex flex-col gap-y-3 justify-around h-60">
+        <div className="flex flex-col gap-y-3 justify-around h-36">
           {/* title */}
           <div className="overflow-hidden max-w-max lg:h-56">
             <h4 className="h4">Toits plats</h4>
@@ -284,7 +284,7 @@ export default function Home() {
           loading="lazy"
         ></img>
         {/* text */}
-        <div className="flex flex-col gap-y-3 justify-around h-60">
+        <div className="flex flex-col gap-y-3 justify-around h-36">
           {/* title */}
           <div className="overflow-hidden max-w-max lg:h-56">
             <h4 className="h4">Toits végétalisés</h4>
@@ -309,7 +309,7 @@ export default function Home() {
           loading="lazy"
         ></img>
         {/* text */}
-        <div className="flex flex-col gap-y-3 justify-around h-60">
+        <div className="flex flex-col gap-y-3 justify-around h-36">
           {/* title */}
           <div className="overflow-hidden max-w-max lg:h-56">
             <h4 className="h4">Bardage</h4>
@@ -333,7 +333,7 @@ export default function Home() {
           loading="lazy"
         ></img>
         {/* text */}
-        <div className="flex flex-col gap-y-3 justify-around h-60">
+        <div className="flex flex-col gap-y-3 justify-around h-36">
           <div className="overflow-hidden max-w-max lg:h-56">
             <h4 className="h4">Isolation</h4>
             <p className="p small">
@@ -356,7 +356,7 @@ export default function Home() {
           src="images/services/renovation.webp"
           loading="lazy"
         ></img>
-        <div className="flex flex-col gap-y-3 justify-around h-60">
+        <div className="flex flex-col gap-y-3 justify-around h-36">
           <div className="overflow-hidden max-w-max lg:h-56">
             <h4 className="h4">Rénovation</h4>
             <p className="p small">
@@ -671,7 +671,7 @@ export default function Home() {
       <section className="container px-5 mx-auto flex flex-col items-center max-w-screen-lg gap-y-6">
         <h3 className="h4 !text-2xl text-center">
           WD Toitures, <span className="text-[--primary-color]">experts</span>{" "}
-          en toitures, bardage, toitures végétalisées et isolation
+          en toitures, bardage, démmoussage et isolation
         </h3>
         <p className="p small text-center !max-w-screen-lg">
           Nous travaillons avec les meilleures marques du marché, auprès de
