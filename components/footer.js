@@ -65,6 +65,12 @@ export default function Footer() {
               Toitures végétalisées
             </a>
             <a
+              href="/services/demoussage"
+              className={`${archivo.className} p hover:text-[#000000a1] transition-all`}
+            >
+              Démoussage
+            </a>
+            <a
               href="/services/gaktimmers"
               className={`${archivo.className} p hover:text-[#000000a1] transition-all`}
             >

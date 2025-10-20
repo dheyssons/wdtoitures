@@ -30,7 +30,7 @@ import "./globals.css";
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="nl" className="scroll-smooth">
+    <html lang="fr" className="scroll-smooth">
       <head>
         <script
           dangerouslySetInnerHTML={{

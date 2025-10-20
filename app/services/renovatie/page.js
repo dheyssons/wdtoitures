@@ -47,7 +47,7 @@ export default function Renovatie() {
                 <p className="text-gray-700 p small leading-relaxed">
                   En utilisant des{" "}
                   <strong className="text-[--primary-color]">
-                    matériaux durables
+                    matériaux durables&nbsp;
                   </strong>
                   et des{" "}
                   <strong className="text-[--primary-color]">

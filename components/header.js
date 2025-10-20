@@ -36,22 +36,10 @@ import config from "@/utils/config";
 
 const services = [
   {
-    name: "Charpentes",
+    name: "Démoussage",
     description: "",
-    href: "/services/daktimmer",
-    icon: AiOutlineFileDone,
-  },
-  {
-    name: "Toitures végétalisées",
-    description: "",
-    href: "/services/groendaken",
+    href: "/services/demoussage",
     icon: BiCheckShield,
-  },
-  {
-    name: "Bardage",
-    description: "",
-    href: "/services/gevelbekleding",
-    icon: MdOutlineWorkspacePremium,
   },
   {
     name: "Toits plats",
@@ -172,6 +160,7 @@ export default function Header() {
                 </a>
               </li>
 
+              {/* NOS SERVICES */}
               <div>
                 <Popover className="relative">
                   <motion.div>

@@ -65,86 +65,6 @@ export default function Home() {
 
   const items = [
     <div key="slide1" className="flex flex-row gap-x-10">
-      {/* charpentes */}
-      <div className="card-services">
-        <img
-          className="image-services"
-          alt="charpente"
-          src="images/services/charpenter.webp"
-          loading="lazy"
-        ></img>
-        {/* text */}
-        <div className="flex flex-col gap-y-3 justify-around h-32">
-          {/* title */}
-          <div className="overflow-hidden max-w-max h-56">
-            <h4 className="h4">Charpentes</h4>
-            <p className="p small">
-              Les charpentes forment l'épine dorsale d'un toit solide et bien
-              construit. Avec plus d'un siècle d'expérience, nous travaillons
-              avec des essences de bois de haute qualité et des techniques
-              raffinées pour garantir durabilité, sécurité et une finition
-              irréprochable, tant pour les constructions neuves que pour les
-              rénovations.
-            </p>
-          </div>
-        </div>
-        <a className="btn uppercase" href="/services/daktimmer">
-          En savoir plus <LuArrowUpRight className="mx-1" />{" "}
-        </a>
-      </div>
-      {/* toits végétalisés */}
-      <div className="card-services">
-        <img
-          className="image-services"
-          alt="toits végétalisés"
-          src="images/services/groendaken/image1.webp"
-          loading="lazy"
-        ></img>
-        {/* text */}
-        <div className="flex flex-col gap-y-3 justify-around h-60">
-          {/* title */}
-          <div className="overflow-hidden max-w-max h-56">
-            <h4 className="h4">Toits végétalisés</h4>
-            <p className="p small">
-              Les toits végétalisés sont une solution innovante et durable pour
-              les bâtiments résidentiels et commerciaux. Ils améliorent
-              l'efficacité énergétique, prolongent la durée de vie du toit et
-              contribuent à un meilleur environnement grâce à la rétention d'eau
-              et à la purification de l'air.
-            </p>
-          </div>
-        </div>
-        <a className="btn uppercase" href="/services/groendaken">
-          En savoir plus <LuArrowUpRight className="mx-1" />{" "}
-        </a>
-      </div>
-      {/* bardage */}
-      <div className="card-services">
-        <img
-          className="image-services"
-          alt="bardage"
-          src="images/services/gevelbekleding/image1.webp"
-          loading="lazy"
-        ></img>
-        {/* text */}
-        <div className="flex flex-col gap-y-3 justify-around h-60">
-          {/* title */}
-          <div className="overflow-hidden max-w-max h-56">
-            <h4 className="h4">Bardage</h4>
-            <p className="p small">
-              Le bardage assure l'esthétique et la protection de votre bâtiment.
-              Nous proposons une large gamme de services de bardage, de
-              l'installation à la rénovation, avec des matériaux à la fois
-              esthétiques et fonctionnels.
-            </p>
-          </div>
-        </div>
-        <a className="btn uppercase" href="/services/gevelbekleding">
-          En savoir plus <LuArrowUpRight className="mx-1" />{" "}
-        </a>
-      </div>
-    </div>,
-    <div key="slide2" className="flex flex-row gap-x-10">
       {/* toits plats */}
       <div className="card-services">
         <img
@@ -169,7 +89,7 @@ export default function Home() {
           </div>
         </div>
         <a className="btn uppercase" href="/services/plattedaken">
-          En savoir plus <LuArrowUpRight className="mx-1" />{" "}
+          Voir sur toits plats <LuArrowUpRight className="mx-1" />{" "}
         </a>
       </div>
       {/* rénovation */}
@@ -193,7 +113,7 @@ export default function Home() {
           </div>
         </div>
         <a className="btn uppercase" href="/services/renovatie">
-          En savoir plus <LuArrowUpRight className="mx-1" />{" "}
+          Voir sur démoussage <LuArrowUpRight className="mx-1" />{" "}
         </a>
       </div>
       {/* isolation */}
@@ -216,8 +136,8 @@ export default function Home() {
             </p>
           </div>
         </div>
-        <a className="btn" href="/services/isolatie">
-          En savoir plus <LuArrowUpRight className="mx-1" />{" "}
+        <a className="btn uppercase" href="/services/isolatie">
+          Voir sur isolation <LuArrowUpRight className="mx-1" />{" "}
         </a>
       </div>
     </div>,
@@ -225,32 +145,6 @@ export default function Home() {
 
   const itemsMobile = [
     <div key="slide1" className="flex flex-row gap-x-10">
-      {/* Charpentes */}
-      <div className="card-services">
-        <img
-          className="image-services"
-          alt="charpente"
-          src="images/services/charpenter.webp"
-          loading="lazy"
-        ></img>
-        {/* text */}
-        <div className="flex flex-col gap-y-3 justify-around h-36">
-          {/* title */}
-          <div className="overflow-hidden max-w-max lg:h-56">
-            <h4 className="h4">Charpentes</h4>
-            <p className="p small">
-              Les charpentes forment l'épine dorsale d'un toit solide et bien
-              construit. Avec plus d'un siècle d'expérience, nous assurons
-              durabilité, sécurité et finition soignée.
-            </p>
-          </div>
-        </div>
-        <a className="btn uppercase" href="/services/daktimmer">
-          En savoir plus <LuArrowUpRight className="mx-1" />{" "}
-        </a>
-      </div>
-    </div>,
-    <div key="slide2" className="flex flex-row gap-x-10">
       {/* Toits plats */}
       <div className="card-services">
         <img
@@ -270,60 +164,11 @@ export default function Home() {
           </div>
         </div>
         <a className="btn uppercase" href="/services/plattedaken">
-          En savoir plus <LuArrowUpRight className="mx-1" />{" "}
+          Voir sur toits plats <LuArrowUpRight className="mx-1" />{" "}
         </a>
       </div>
     </div>,
-    <div key="slide3" className="flex flex-row gap-x-10">
-      {/* Toits végétalisés */}
-      <div className="card-services">
-        <img
-          className="image-services"
-          alt="toits végétalisés"
-          src="images/services/groendaken/image1.webp"
-          loading="lazy"
-        ></img>
-        {/* text */}
-        <div className="flex flex-col gap-y-3 justify-around h-36">
-          {/* title */}
-          <div className="overflow-hidden max-w-max lg:h-56">
-            <h4 className="h4">Toits végétalisés</h4>
-            <p className="p small">
-              Solutions durables améliorant l'efficacité énergétique et
-              l'environnement.
-            </p>
-          </div>
-        </div>
-        <a className="btn uppercase" href="/services/groendaken">
-          En savoir plus <LuArrowUpRight className="mx-1" />{" "}
-        </a>
-      </div>
-    </div>,
-    <div key="slide4" className="flex flex-row gap-x-10">
-      {/* Bardage */}
-      <div className="card-services">
-        <img
-          className="image-services"
-          alt="bardage"
-          src="images/services/gevelbekleding/image1.webp"
-          loading="lazy"
-        ></img>
-        {/* text */}
-        <div className="flex flex-col gap-y-3 justify-around h-36">
-          {/* title */}
-          <div className="overflow-hidden max-w-max lg:h-56">
-            <h4 className="h4">Bardage</h4>
-            <p className="p small">
-              Esthétique et protection : installation et rénovation de bardages.
-            </p>
-          </div>
-        </div>
-        <a className="btn uppercase" href="/services/gevelbekleding">
-          En savoir plus <LuArrowUpRight className="mx-1" />{" "}
-        </a>
-      </div>
-    </div>,
-    <div key="slide5" className="flex flex-row gap-x-10">
+    <div key="slide2" className="flex flex-row gap-x-10">
       {/* Isolation */}
       <div className="card-services">
         <img
@@ -342,12 +187,12 @@ export default function Home() {
             </p>
           </div>
         </div>
-        <a className="btn" href="/services/isolatie">
-          En savoir plus <LuArrowUpRight className="mx-1" />{" "}
+        <a className="btn uppercase" href="/services/isolatie">
+          Voir sur isolation <LuArrowUpRight className="mx-1" />{" "}
         </a>
       </div>
     </div>,
-    <div key="slide6" className="flex flex-row gap-x-10">
+    <div key="slide3" className="flex flex-row gap-x-10">
       {/* Rénovation */}
       <div className="card-services">
         <img
@@ -366,7 +211,7 @@ export default function Home() {
           </div>
         </div>
         <a className="btn uppercase" href="/services/renovatie">
-          En savoir plus <LuArrowUpRight className="mx-1" />{" "}
+          Voir sur démoussage <LuArrowUpRight className="mx-1" />{" "}
         </a>
       </div>
     </div>,
@@ -671,7 +516,7 @@ export default function Home() {
       <section className="container px-5 mx-auto flex flex-col items-center max-w-screen-lg gap-y-6">
         <h3 className="h4 !text-2xl text-center">
           WD Toitures, <span className="text-[--primary-color]">experts</span>{" "}
-          en toitures, bardage, démmoussage et isolation
+          en toitures, démmoussage et isolation
         </h3>
         <p className="p small text-center !max-w-screen-lg">
           Nous travaillons avec les meilleures marques du marché, auprès de
