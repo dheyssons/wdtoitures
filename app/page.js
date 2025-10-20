@@ -456,10 +456,10 @@ export default function Home() {
           className="container px-5 mx-auto flex flex-col items-center gap-y-24 lg:gap-y-28 py-20"
         >
           {/* about */}
-          <div className="flex flex-col lg:flex-row items-center gap-10 lg:gap-y-20">
+          <div className="flex flex-col lg:flex-row items-start gap-10 lg:gap-y-20">
             {/* texts */}
             <div className="flex flex-col gap-y-8 md:gap-y-14 items-center">
-              <div className="flex flex-col gap-y-8 items-center ">
+              <div className="flex flex-col gap-y-8 items-start ">
                 <div className="flex flex-col gap-y-2 items-center lg:items-start">
                   <div>
                     <motion.h3

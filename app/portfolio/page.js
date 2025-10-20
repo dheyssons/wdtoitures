@@ -12,38 +12,17 @@ import { transition1_s } from "@/public/transitions/transition1_s";
 import { item } from "@/public/variants/item";
 
 import Image from "next/image";
-import Duffel1 from "@/public/images/portfolio/duffel/image1.webp";
-import Duffel2 from "@/public/images/portfolio/duffel/image2.webp";
-import Duffel3 from "@/public/images/portfolio/duffel/image3.webp";
 
-import Onzelieve1 from "@/public/images/portfolio/onzelieve/image1.webp";
-import Onzelieve2 from "@/public/images/portfolio/onzelieve/image2.webp";
-import Onzelieve3 from "@/public/images/portfolio/onzelieve/image3.webp";
-import Onzelieve4 from "@/public/images/portfolio/onzelieve/image4.webp";
-import Onzelieve5 from "@/public/images/portfolio/onzelieve/image5.webp";
-
-import Putte1 from "@/public/images/portfolio/putte/image1.webp";
-import Putte2 from "@/public/images/portfolio/putte/image2.webp";
-import Putte3 from "@/public/images/portfolio/putte/image3.webp";
-
-import Waarloos1 from "@/public/images/portfolio/waarloos/image (1).webp";
-import Waarloos2 from "@/public/images/portfolio/waarloos/image (2).webp";
-import Waarloos3 from "@/public/images/portfolio/waarloos/image (3).webp";
-import Waarloos4 from "@/public/images/portfolio/waarloos/image (4).webp";
-import Waarloos5 from "@/public/images/portfolio/waarloos/image (5).webp";
-import Waarloos6 from "@/public/images/portfolio/waarloos/image (6).webp";
-import Waarloos7 from "@/public/images/portfolio/waarloos/image (7).webp";
-import Waarloos8 from "@/public/images/portfolio/waarloos/image (8).webp";
-
-import Tremelo1 from "@/public/images/portfolio/tremelo/image1.webp";
-import Tremelo2 from "@/public/images/portfolio/tremelo/image2.webp";
-import Tremelo3 from "@/public/images/portfolio/tremelo/image3.webp";
-import Tremelo4 from "@/public/images/portfolio/tremelo/image4.webp";
-import Tremelo5 from "@/public/images/portfolio/tremelo/image5.webp";
-import Tremelo6 from "@/public/images/portfolio/tremelo/image6.webp";
-
-import Sint1 from "@/public/images/portfolio/sintkatelijnewaver/image1.webp";
-import Sint2 from "@/public/images/portfolio/sintkatelijnewaver/image2.webp";
+import Sint1 from "@/public/images/portfolio/sintkatelijnewaver1/image1.webp";
+import Sint2 from "@/public/images/portfolio/sintkatelijnewaver1/image2.webp";
+import Sint3 from "@/public/images/portfolio/sintkatelijnewaver1/image3.webp";
+import Sint4 from "@/public/images/portfolio/sintkatelijnewaver1/image4.webp";
+import Sint5 from "@/public/images/portfolio/sintkatelijnewaver1/image5.webp";
+import Sint1_2 from "@/public/images/portfolio/sintkatelijnewaver2/image1.webp";
+import Sint2_2 from "@/public/images/portfolio/sintkatelijnewaver2/image2.webp";
+import Sint3_2 from "@/public/images/portfolio/sintkatelijnewaver2/image3.webp";
+import Sint4_2 from "@/public/images/portfolio/sintkatelijnewaver2/image4.webp";
+import Sint5_2 from "@/public/images/portfolio/sintkatelijnewaver2/image5.webp";
 
 import Carousel from "@/components/carousel";
 import CarouselMobile from "@/components/carouselmobile";
@@ -52,197 +31,77 @@ import Testimonials from "@/components/testimonials";
 import ContactForm from "@/components/contactform";
 
 const images = [
-  "/images/portfolio/duffel/image1.webp",
-  "/images/portfolio/onzelieve/image1.webp",
-  "/images/portfolio/putte/image1.webp",
-  "/images/portfolio/waarloos/image (6).webp",
-  "/images/portfolio/tremelo/image4.webp",
-  "/images/portfolio/sintkatelijnewaver/image2.webp",
+  "/images/portfolio/sintkatelijnewaver1/image1.webp",
+  "/images/portfolio/sintkatelijnewaver1/image2.webp",
+  "/images/portfolio/sintkatelijnewaver1/image3.webp",
+  "/images/portfolio/sintkatelijnewaver1/image4.webp",
+  "/images/portfolio/sintkatelijnewaver1/image5.webp",
+  "/images/portfolio/sintkatelijnewaver2/image1.webp",
+  "/images/portfolio/sintkatelijnewaver2/image2.webp",
+  "/images/portfolio/sintkatelijnewaver2/image3.webp",
+  "/images/portfolio/sintkatelijnewaver2/image4.webp",
+  "/images/portfolio/sintkatelijnewaver2/image5.webp",
 ];
 
-const duffel = [
+const sint1 = [
   <div key="slide1" className="flex flex-row gap-x-10">
-    <Image className="max-w-lg rounded-md" src={Duffel1} alt="" />
-    <Image className="max-w-lg rounded-md" src={Duffel2} alt="" />
+    <Image className="max-w-md rounded-md" src={Sint1} alt="" />
+    <Image className="max-w-md rounded-md" src={Sint2} alt="" />
   </div>,
   <div key="slide2" className="flex flex-row gap-x-10">
-    <Image className="max-w-lg rounded-md" src={Duffel3} alt="" />
-  </div>,
-];
-const waarloos = [
-  <div key="slide1" className="flex flex-row gap-x-10">
-    <Image className="max-w-lg rounded-md" src={Waarloos1} alt="" />
-    <Image className="max-w-lg rounded-md" src={Waarloos2} alt="" />
-  </div>,
-  <div key="slide2" className="flex flex-row gap-x-10">
-    <Image className="max-w-lg rounded-md" src={Waarloos3} alt="" />
-    <Image className="max-w-lg rounded-md" src={Waarloos4} alt="" />
+    <Image className="max-w-md rounded-md" src={Sint3} alt="" />
+    <Image className="max-w-md rounded-md" src={Sint4} alt="" />
   </div>,
   <div key="slide3" className="flex flex-row gap-x-10">
-    <Image className="max-w-lg rounded-md" src={Waarloos5} alt="" />
-    <Image className="max-w-lg rounded-md" src={Waarloos6} alt="" />
-  </div>,
-  <div key="slide4" className="flex flex-row gap-x-10">
-    <Image className="max-w-lg rounded-md" src={Waarloos7} alt="" />
-    <Image className="max-w-lg rounded-md" src={Waarloos8} alt="" />
+    <Image className="max-w-md rounded-md" src={Sint5} alt="" />
   </div>,
 ];
-const putte = [
+const sint2 = [
   <div key="slide1" className="flex flex-row gap-x-10">
-    <Image className="max-w-lg rounded-md" src={Putte1} alt="" />
-    <Image className="max-w-lg rounded-md" src={Putte2} alt="" />
+    <Image className="max-w-md rounded-md" src={Sint1_2} alt="" />
+    <Image className="max-w-md rounded-md" src={Sint2_2} alt="" />
   </div>,
   <div key="slide2" className="flex flex-row gap-x-10">
-    <Image className="max-w-lg rounded-md" src={Putte3} alt="" />
-  </div>,
-];
-const tremelo = [
-  <div key="slide1" className="flex flex-row gap-x-10">
-    <Image className="max-w-lg rounded-md" src={Tremelo1} alt="" />
-    <Image className="max-w-lg rounded-md" src={Tremelo2} alt="" />
-  </div>,
-  <div key="slide2" className="flex flex-row gap-x-10">
-    <Image className="max-w-lg rounded-md" src={Tremelo3} alt="" />
-    <Image className="max-w-lg rounded-md" src={Tremelo4} alt="" />
+    <Image className="max-w-md rounded-md" src={Sint3_2} alt="" />
+    <Image className="max-w-md rounded-md" src={Sint4_2} alt="" />
   </div>,
   <div key="slide3" className="flex flex-row gap-x-10">
-    <Image className="max-w-lg rounded-md" src={Tremelo5} alt="" />
-    <Image className="max-w-lg rounded-md" src={Tremelo6} alt="" />
-  </div>,
-];
-const sint = [
-  <div key="slide1" className="flex flex-row gap-x-10">
-    <Image className="max-w-lg rounded-md" src={Sint1} alt="" />
-  </div>,
-  <div key="slide2" className="flex flex-row gap-x-10">
-    <Image className="max-w-lg rounded-md" src={Sint2} alt="" />
-  </div>,
-];
-const onze = [
-  <div key="slide1" className="flex flex-row gap-x-10">
-    <Image className="max-w-lg rounded-md" src={Onzelieve1} alt="" />
-    <Image className="max-w-lg rounded-md" src={Onzelieve2} alt="" />
-  </div>,
-  <div key="slide2" className="flex flex-row gap-x-10">
-    <Image className="max-w-lg rounded-md" src={Onzelieve3} alt="" />
-    <Image className="max-w-lg rounded-md" src={Onzelieve4} alt="" />
-  </div>,
-  <div key="slide3" className="flex flex-row gap-x-10">
-    <Image className="max-w-lg rounded-md" src={Onzelieve5} alt="" />
+    <Image className="max-w-md rounded-md" src={Sint5_2} alt="" />
   </div>,
 ];
 
-const duffelMobile = [
+const sintMobile1 = [
   <div key="slide1" className="flex flex-row gap-x-10">
-    <Image className="max-w-sm lg:max-w-lg rounded-md" src={Duffel1} alt="" />
+    <Image className="max-w-sm lg:max-w-md rounded-md" src={Sint1} alt="" />
   </div>,
   <div key="slide2" className="flex flex-row gap-x-10">
-    <Image className="max-w-sm lg:max-w-lg rounded-md" src={Duffel2} alt="" />
+    <Image className="max-w-sm lg:max-w-md rounded-md" src={Sint2} alt="" />
   </div>,
   <div key="slide3" className="flex flex-row gap-x-10">
-    <Image className="max-w-sm lg:max-w-lg rounded-md" src={Duffel3} alt="" />
-  </div>,
-];
-const waarloosMobile = [
-  <div key="slide1" className="flex flex-row gap-x-10">
-    <Image className="max-w-sm lg:max-w-lg rounded-md" src={Waarloos1} alt="" />
-  </div>,
-  <div key="slide2" className="flex flex-row gap-x-10">
-    <Image className="max-w-sm lg:max-w-lg rounded-md" src={Waarloos2} alt="" />
-  </div>,
-  <div key="slide3" className="flex flex-row gap-x-10">
-    <Image className="max-w-sm lg:max-w-lg rounded-md" src={Waarloos3} alt="" />
+    <Image className="max-w-sm lg:max-w-md rounded-md" src={Sint3} alt="" />
   </div>,
   <div key="slide4" className="flex flex-row gap-x-10">
-    <Image className="max-w-sm lg:max-w-lg rounded-md" src={Waarloos4} alt="" />
+    <Image className="max-w-sm lg:max-w-md rounded-md" src={Sint4} alt="" />
   </div>,
   <div key="slide5" className="flex flex-row gap-x-10">
-    <Image className="max-w-sm lg:max-w-lg rounded-md" src={Waarloos5} alt="" />
-  </div>,
-  <div key="slide6" className="flex flex-row gap-x-10">
-    <Image className="max-w-sm lg:max-w-lg rounded-md" src={Waarloos6} alt="" />
-  </div>,
-  <div key="slide7" className="flex flex-row gap-x-10">
-    <Image className="max-w-sm lg:max-w-lg rounded-md" src={Waarloos7} alt="" />
-  </div>,
-  <div key="slide8" className="flex flex-row gap-x-10">
-    <Image className="max-w-sm lg:max-w-lg rounded-md" src={Waarloos8} alt="" />
+    <Image className="max-w-sm lg:max-w-md rounded-md" src={Sint5} alt="" />
   </div>,
 ];
-const putteMobile = [
+const sintMobile2 = [
   <div key="slide1" className="flex flex-row gap-x-10">
-    <Image className="max-w-sm lg:max-w-lg rounded-md" src={Putte1} alt="" />
+    <Image className="max-w-sm lg:max-w-lg rounded-md" src={Sint1_2} alt="" />
   </div>,
   <div key="slide2" className="flex flex-row gap-x-10">
-    <Image className="max-w-sm lg:max-w-lg rounded-md" src={Putte2} alt="" />
+    <Image className="max-w-sm lg:max-w-lg rounded-md" src={Sint2_2} alt="" />
   </div>,
   <div key="slide3" className="flex flex-row gap-x-10">
-    <Image className="max-w-sm lg:max-w-lg rounded-md" src={Putte3} alt="" />
-  </div>,
-];
-const tremeloMobile = [
-  <div key="slide1" className="flex flex-row gap-x-10">
-    <Image className="max-w-sm lg:max-w-lg rounded-md" src={Tremelo1} alt="" />
-  </div>,
-  <div key="slide2" className="flex flex-row gap-x-10">
-    <Image className="max-w-sm lg:max-w-lg rounded-md" src={Tremelo2} alt="" />
-  </div>,
-  <div key="slide3" className="flex flex-row gap-x-10">
-    <Image className="max-w-sm lg:max-w-lg rounded-md" src={Tremelo3} alt="" />
+    <Image className="max-w-sm lg:max-w-lg rounded-md" src={Sint3_2} alt="" />
   </div>,
   <div key="slide4" className="flex flex-row gap-x-10">
-    <Image className="max-w-sm lg:max-w-lg rounded-md" src={Tremelo4} alt="" />
+    <Image className="max-w-sm lg:max-w-lg rounded-md" src={Sint4_2} alt="" />
   </div>,
   <div key="slide5" className="flex flex-row gap-x-10">
-    <Image className="max-w-sm lg:max-w-lg rounded-md" src={Tremelo5} alt="" />
-  </div>,
-  <div key="slide6" className="flex flex-row gap-x-10">
-    <Image className="max-w-sm lg:max-w-lg rounded-md" src={Tremelo6} alt="" />
-  </div>,
-];
-const sintMobile = [
-  <div key="slide1" className="flex flex-row gap-x-10">
-    <Image className="max-w-sm lg:max-w-lg rounded-md" src={Sint1} alt="" />
-  </div>,
-  <div key="slide2" className="flex flex-row gap-x-10">
-    <Image className="max-w-sm lg:max-w-lg rounded-md" src={Sint2} alt="" />
-  </div>,
-];
-const onzeMobile = [
-  <div key="slide1" className="flex flex-row gap-x-10">
-    <Image
-      className="max-w-sm lg:max-w-lg rounded-md"
-      src={Onzelieve1}
-      alt=""
-    />
-  </div>,
-  <div key="slide2" className="flex flex-row gap-x-10">
-    <Image
-      className="max-w-sm lg:max-w-lg rounded-md"
-      src={Onzelieve2}
-      alt=""
-    />
-  </div>,
-  <div key="slide3" className="flex flex-row gap-x-10">
-    <Image
-      className="max-w-sm lg:max-w-lg rounded-md"
-      src={Onzelieve3}
-      alt=""
-    />
-  </div>,
-  <div key="slide4" className="flex flex-row gap-x-10">
-    <Image
-      className="max-w-sm lg:max-w-lg rounded-md"
-      src={Onzelieve4}
-      alt=""
-    />
-  </div>,
-  <div key="slide5" className="flex flex-row gap-x-10">
-    <Image
-      className="max-w-sm lg:max-w-lg rounded-md"
-      src={Onzelieve5}
-      alt=""
-    />
+    <Image className="max-w-sm lg:max-w-lg rounded-md" src={Sint5_2} alt="" />
   </div>,
 ];
 
@@ -314,7 +173,7 @@ export default function Portfolio() {
                   alt={`Slide ${index}`}
                   width={300}
                   height={200}
-                  className="rounded-lg shadow-lg"
+                  className="w-full h-full rounded-lg shadow-lg object-cover"
                 />
               </div>
             ))}
@@ -324,101 +183,37 @@ export default function Portfolio() {
         {/* Projects */}
         <div>
           <div className="flex flex-col gap-y-24">
-            {/* renovatie */}
+            {/* plateforme et isolation */}
             <div className="flex flex-col gap-y-10">
               <div>
                 <div className="flex flex-row items-center">
                   <div className="accent"></div>
                   <h5 className="h6 !text-[--primary-color]">
-                    Onze-Lieve-Vrouw-Waver, Heiken
+                    Sint-Katelijne-Waver
                   </h5>
                 </div>
-                <h3 className="h3">Rénovation</h3>
+                <h3 className="h3">Plateforme et isolation</h3>
               </div>
 
-              <Carousel>{duffel}</Carousel>
-              <CarouselMobile>{duffelMobile}</CarouselMobile>
+              <Carousel>{sint1}</Carousel>
+              <CarouselMobile>{sintMobile1}</CarouselMobile>
             </div>
 
-            {/* Daktimmer, dakkapel en gevelbekleding */}
-            <div className="flex flex-col gap-y-10">
-              <div>
-                <div className="flex flex-row items-center">
-                  <div className="accent"></div>
-                  <h5 className="h6 !text-[--primary-color]">
-                    Waarloos, Kerkelei
-                  </h5>
-                </div>
-                <h3 className="h3">Charpente, lucarne et bardage</h3>
-              </div>
-
-              <Carousel>{waarloos}</Carousel>
-              <CarouselMobile>{waarloosMobile}</CarouselMobile>
-            </div>
-
-            {/* Gevelbekleding */}
-            <div className="flex flex-col gap-y-10">
-              <div>
-                <div className="flex flex-row items-center">
-                  <div className="accent"></div>
-                  <h5 className="h6 !text-[--primary-color]">
-                    Putte, Alice Nahonstraat
-                  </h5>
-                </div>
-                <h3 className="h3">Bardage</h3>
-              </div>
-
-              <Carousel>{putte}</Carousel>
-              <CarouselMobile>{putteMobile}</CarouselMobile>
-            </div>
-
-            {/* Timmerwerk en gevelbekleding */}
-            <div className="flex flex-col gap-y-10">
-              <div>
-                <div className="flex flex-row items-center">
-                  <div className="accent"></div>
-                  <h5 className="h6 !text-[--primary-color]">
-                    Tremelo, Pharma Finance
-                  </h5>
-                </div>
-                <h3 className="h3">Menuiserie et bardage</h3>
-              </div>
-
-              <Carousel>{tremelo}</Carousel>
-              <CarouselMobile>{tremeloMobile}</CarouselMobile>
-            </div>
-
-            {/* Gevelbekleding */}
-            <div className="flex flex-col gap-y-10">
-              <div>
-                <div className="flex flex-row items-center">
-                  <div className="accent"></div>
-                  <h5 className="h6 !text-[--primary-color]">
-                    Sint-Katelijne-Waver, Dorp
-                  </h5>
-                </div>
-                <h3 className="h3">Bardage</h3>
-              </div>
-
-              <Carousel>{sint}</Carousel>
-              <CarouselMobile>{sintMobile}</CarouselMobile>
-            </div>
-
-            {/* Renovatie */}
+            {/* zinguerie et couverture */}
             <div className="flex flex-col gap-y-10">
               <div>
                 <div className="flex flex-row items-center">
                   <div className="accent"></div>
                   <h5 className="h6 !text-[--primary-color]">
                     {" "}
-                    Onze-Lieve-Vrouw-Waver, Heiken
+                    Sint-Katelijne-Waver
                   </h5>
                 </div>
-                <h3 className="h3">Rénovation</h3>
+                <h3 className="h3">Zinguerie et couverture</h3>
               </div>
 
-              <Carousel>{onze}</Carousel>
-              <CarouselMobile>{onzeMobile}</CarouselMobile>
+              <Carousel>{sint2}</Carousel>
+              <CarouselMobile>{sintMobile2}</CarouselMobile>
             </div>
           </div>
         </div>
