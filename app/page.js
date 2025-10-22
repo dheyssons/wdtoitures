@@ -102,13 +102,14 @@ export default function Home() {
         ></img>
         <div className="flex flex-col gap-y-3 justify-around h-60">
           <div className="overflow-hidden max-w-max h-56">
-            <h4 className="h4">Rénovation</h4>
+            <h4 className="h4">Démoussage</h4>
             <p className="p small">
-              La rénovation est une étape cruciale pour améliorer, moderniser ou
-              restaurer vos bâtiments. Qu'il s'agisse de réparer des dommages,
-              moderniser une structure ou augmenter l'efficacité énergétique,
-              nos services de rénovation sont conçus pour répondre à vos besoins
-              tout en respectant vos attentes.
+              Le démoussage est une étape essentielle pour préserver la
+              durabilité et l’esthétique de votre toiture. Avec le temps, la
+              mousse, les lichens et les algues peuvent s’accumuler et
+              fragiliser les matériaux. Nos services de démoussage éliminent
+              efficacement ces impuretés tout en protégeant votre toit contre
+              l’humidité et les dégradations futures.
             </p>
           </div>
         </div>
