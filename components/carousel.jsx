@@ -5,7 +5,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import { BiChevronRight } from "react-icons/bi";
 import { BiChevronLeft } from "react-icons/bi";
 
-const Carousel = ({ children }) => {
+const Carousel = ({ children, hidden }) => {
   const [index, setIndex] = useState(0);
   const total = children.length;
 
@@ -18,7 +18,7 @@ const Carousel = ({ children }) => {
   };
 
   return (
-    <div className="hidden lg:block relative h-[36rem] w-full max-w-full overflow-hidden">
+    <div className="hidden lg:block relative h-[42rem] w-full max-w-full overflow-hidden">
       <AnimatePresence mode="wait">
         <motion.div
           key={index} // Esse key precisa ser único para cada item

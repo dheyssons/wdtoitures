@@ -5,7 +5,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import { BiChevronRight } from "react-icons/bi";
 import { BiChevronLeft } from "react-icons/bi";
 
-const CarouselMobile = ({ children }) => {
+const CarouselMobile = ({ children, hidden }) => {
   const [index, setIndex] = useState(0);
   const total = children.length;
 

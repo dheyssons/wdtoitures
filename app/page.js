@@ -113,7 +113,7 @@ export default function Home() {
             </p>
           </div>
         </div>
-        <a className="btn uppercase" href="/services/renovatie">
+        <a className="btn uppercase" href="/services/demoussage">
           Voir sur démoussage <LuArrowUpRight className="mx-1" />{" "}
         </a>
       </div>
@@ -211,7 +211,7 @@ export default function Home() {
             </p>
           </div>
         </div>
-        <a className="btn uppercase" href="/services/renovatie">
+        <a className="btn uppercase" href="/services/demoussage">
           Voir sur démoussage <LuArrowUpRight className="mx-1" />{" "}
         </a>
       </div>
