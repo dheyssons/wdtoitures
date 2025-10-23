@@ -58,12 +58,7 @@ export default function Footer() {
             >
               Services
             </p>
-            <a
-              href="/services/groendaken"
-              className={`${archivo.className} p hover:text-[#000000a1] transition-all`}
-            >
-              Toitures végétalisées
-            </a>
+
             <a
               href="/services/demoussage"
               className={`${archivo.className} p hover:text-[#000000a1] transition-all`}
@@ -71,28 +66,10 @@ export default function Footer() {
               Démoussage
             </a>
             <a
-              href="/services/gaktimmers"
-              className={`${archivo.className} p hover:text-[#000000a1] transition-all`}
-            >
-              Charpentes
-            </a>
-            <a
-              href="/services/gevelbekleding"
-              className={`${archivo.className} p hover:text-[#000000a1] transition-all`}
-            >
-              Bardage
-            </a>
-            <a
               href="/services/plattedaken"
               className={`${archivo.className} p hover:text-[#000000a1] transition-all`}
             >
               Toits plats
-            </a>
-            <a
-              href="/services/renovatie"
-              className={`${archivo.className} p hover:text-[#000000a1] transition-all`}
-            >
-              Rénovation
             </a>
             <a
               href="/services/isolatie"
