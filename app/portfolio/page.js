@@ -51,94 +51,94 @@ const images = [
 
 const sint1 = [
   <div key="slide1" className="flex flex-row gap-x-10">
-    <Image className="max-w-md rounded-md" src={Sint1} alt="" />
-    <Image className="max-w-md rounded-md" src={Sint2} alt="" />
+    <Image className="max-w-md rounded-sm" src={Sint1} alt="" />
+    <Image className="max-w-md rounded-sm" src={Sint2} alt="" />
   </div>,
   <div key="slide2" className="flex flex-row gap-x-10">
-    <Image className="max-w-md rounded-md" src={Sint3} alt="" />
-    <Image className="max-w-md rounded-md" src={Sint4} alt="" />
+    <Image className="max-w-md rounded-sm" src={Sint3} alt="" />
+    <Image className="max-w-md rounded-sm" src={Sint4} alt="" />
   </div>,
   <div key="slide3" className="flex flex-row gap-x-10">
-    <Image className="max-w-md rounded-md" src={Sint5} alt="" />
+    <Image className="max-w-md rounded-sm" src={Sint5} alt="" />
   </div>,
 ];
 const sint2 = [
   <div key="slide1" className="flex flex-row gap-x-10">
-    <Image className="max-w-md rounded-md" src={Sint1_2} alt="" />
-    <Image className="max-w-md rounded-md" src={Sint2_2} alt="" />
+    <Image className="max-w-md rounded-sm" src={Sint1_2} alt="" />
+    <Image className="max-w-md rounded-sm" src={Sint2_2} alt="" />
   </div>,
   <div key="slide2" className="flex flex-row gap-x-10">
-    <Image className="max-w-md rounded-md" src={Sint3_2} alt="" />
-    <Image className="max-w-md rounded-md" src={Sint4_2} alt="" />
+    <Image className="max-w-md rounded-sm" src={Sint3_2} alt="" />
+    <Image className="max-w-md rounded-sm" src={Sint4_2} alt="" />
   </div>,
   <div key="slide3" className="flex flex-row gap-x-10">
-    <Image className="max-w-md rounded-md" src={Sint5_2} alt="" />
+    <Image className="max-w-md rounded-sm" src={Sint5_2} alt="" />
   </div>,
 ];
 
 const sintMobile1 = [
   <div key="slide1" className="flex flex-row gap-x-10">
-    <Image className="max-w-sm lg:max-w-md rounded-md" src={Sint1} alt="" />
+    <Image className="max-w-sm lg:max-w-md rounded-sm" src={Sint1} alt="" />
   </div>,
   <div key="slide2" className="flex flex-row gap-x-10">
-    <Image className="max-w-sm lg:max-w-md rounded-md" src={Sint2} alt="" />
+    <Image className="max-w-sm lg:max-w-md rounded-sm" src={Sint2} alt="" />
   </div>,
   <div key="slide3" className="flex flex-row gap-x-10">
-    <Image className="max-w-sm lg:max-w-md rounded-md" src={Sint3} alt="" />
+    <Image className="max-w-sm lg:max-w-md rounded-sm" src={Sint3} alt="" />
   </div>,
   <div key="slide4" className="flex flex-row gap-x-10">
-    <Image className="max-w-sm lg:max-w-md rounded-md" src={Sint4} alt="" />
+    <Image className="max-w-sm lg:max-w-md rounded-sm" src={Sint4} alt="" />
   </div>,
   <div key="slide5" className="flex flex-row gap-x-10">
-    <Image className="max-w-sm lg:max-w-md rounded-md" src={Sint5} alt="" />
+    <Image className="max-w-sm lg:max-w-md rounded-sm" src={Sint5} alt="" />
   </div>,
 ];
 const sintMobile2 = [
   <div key="slide1" className="flex flex-row gap-x-10">
-    <Image className="max-w-sm lg:max-w-lg rounded-md" src={Sint1_2} alt="" />
+    <Image className="max-w-sm lg:max-w-lg rounded-sm" src={Sint1_2} alt="" />
   </div>,
   <div key="slide2" className="flex flex-row gap-x-10">
-    <Image className="max-w-sm lg:max-w-lg rounded-md" src={Sint2_2} alt="" />
+    <Image className="max-w-sm lg:max-w-lg rounded-sm" src={Sint2_2} alt="" />
   </div>,
   <div key="slide3" className="flex flex-row gap-x-10">
-    <Image className="max-w-sm lg:max-w-lg rounded-md" src={Sint3_2} alt="" />
+    <Image className="max-w-sm lg:max-w-lg rounded-sm" src={Sint3_2} alt="" />
   </div>,
   <div key="slide4" className="flex flex-row gap-x-10">
-    <Image className="max-w-sm lg:max-w-lg rounded-md" src={Sint4_2} alt="" />
+    <Image className="max-w-sm lg:max-w-lg rounded-sm" src={Sint4_2} alt="" />
   </div>,
   <div key="slide5" className="flex flex-row gap-x-10">
-    <Image className="max-w-sm lg:max-w-lg rounded-md" src={Sint5_2} alt="" />
+    <Image className="max-w-sm lg:max-w-lg rounded-sm" src={Sint5_2} alt="" />
   </div>,
 ];
 
 const zellik1 = [
   <div key="slide1" className="flex flex-row gap-x-10">
-    <Image className="max-w-md rounded-md" src={Zellik1} alt="" />
-    <Image className="max-w-md rounded-md" src={Zellik2} alt="" />
+    <Image className="max-w-md rounded-sm" src={Zellik1} alt="" />
+    <Image className="max-w-md rounded-sm" src={Zellik2} alt="" />
   </div>,
   <div key="slide2" className="flex flex-row gap-x-10">
-    <Image className="max-w-md rounded-md" src={Zellik3} alt="" />
-    <Image className="max-w-md rounded-md" src={Zellik4} alt="" />
+    <Image className="max-w-md rounded-sm" src={Zellik3} alt="" />
+    <Image className="max-w-md rounded-sm" src={Zellik4} alt="" />
   </div>,
   <div key="slide3" className="flex flex-row gap-x-10">
-    <Image className="max-w-md rounded-md" src={Zellik5} alt="" />
+    <Image className="max-w-md rounded-sm" src={Zellik5} alt="" />
   </div>,
 ];
 const zellikMobile1 = [
   <div key="slide1" className="flex flex-row gap-x-10">
-    <Image className="max-w-sm lg:max-w-md rounded-md" src={Zellik1} alt="" />
+    <Image className="max-w-sm lg:max-w-md rounded-sm" src={Zellik1} alt="" />
   </div>,
   <div key="slide2" className="flex flex-row gap-x-10">
-    <Image className="max-w-sm lg:max-w-md rounded-md" src={Zellik2} alt="" />
+    <Image className="max-w-sm lg:max-w-md rounded-sm" src={Zellik2} alt="" />
   </div>,
   <div key="slide3" className="flex flex-row gap-x-10">
-    <Image className="max-w-sm lg:max-w-md rounded-md" src={Zellik3} alt="" />
+    <Image className="max-w-sm lg:max-w-md rounded-sm" src={Zellik3} alt="" />
   </div>,
   <div key="slide4" className="flex flex-row gap-x-10">
-    <Image className="max-w-sm lg:max-w-md rounded-md" src={Zellik4} alt="" />
+    <Image className="max-w-sm lg:max-w-md rounded-sm" src={Zellik4} alt="" />
   </div>,
   <div key="slide5" className="flex flex-row gap-x-10">
-    <Image className="max-w-sm lg:max-w-md rounded-md" src={Zellik5} alt="" />
+    <Image className="max-w-sm lg:max-w-md rounded-sm" src={Zellik5} alt="" />
   </div>,
 ];
 
@@ -210,7 +210,7 @@ export default function Portfolio() {
                   alt={`Slide ${index}`}
                   width={256}
                   height={128}
-                  className="w-full h-full rounded-lg shadow-lg object-cover"
+                  className="w-full h-full rounded-md shadow-lg object-cover"
                 />
               </div>
             ))}

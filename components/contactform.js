@@ -200,7 +200,7 @@ export default function ContactForm() {
             whileInView="variantAnim"
             viewport={{ once: true }}
             transition={transition1}
-            className="text-white flex flex-col gap-y-16 p-12 lg:p-20 bg-[#151515] lg:rounded-lg"
+            className="text-white flex flex-col gap-y-16 p-12 lg:p-20 bg-[#151515] lg:rounded-md"
           >
             <div className="flex flex-col justify-center gap-y-2">
               <div className="flex flex-row overflow-hidden">
@@ -215,14 +215,14 @@ export default function ContactForm() {
               <a
                 target="_blank"
                 href={`mailto:${config.emailAddress}`}
-                className="h6 flex flex-row items-center gap-x-2 opacity-90 hover:opacity-50 "
+                className="p flex flex-row items-center gap-x-2 opacity-90 hover:opacity-50 "
               >
                 <MdOutlineMail /> {config.emailAddress}
               </a>
               <a
                 target="_blank"
                 href={`https://api.whatsapp.com/send?phone=${config.whatsappNumber}`}
-                className="h6 flex flex-row items-center gap-x-2 opacity-90 hover:opacity-50"
+                className="p flex flex-row items-center gap-x-2 opacity-90 hover:opacity-50"
               >
                 <ImWhatsapp />
                 {config.phoneNumber}
@@ -231,7 +231,7 @@ export default function ContactForm() {
                 target="_blank"
                 href={config.mapsLink}
                 title="address"
-                className="h6 flex flex-row items-center gap-x-2 opacity-90 hover:opacity-50 leading-10"
+                className="p flex flex-row items-center gap-x-2 opacity-90 hover:opacity-50 leading-10"
               >
                 <FaMapMarkerAlt />
                 {config.localAddress}

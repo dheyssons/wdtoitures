@@ -144,7 +144,7 @@ export default function About() {
                   alt={`Slide ${index}`}
                   width={200}
                   height={200}
-                  className="rounded-lg"
+                  className="rounded-md"
                 />
               </div>
             ))}
@@ -214,7 +214,7 @@ export default function About() {
                   alt={`Slide ${index}`}
                   width={300}
                   height={200}
-                  className="rounded-lg object-scale-down px-4"
+                  className="rounded-md object-scale-down px-4"
                 />
               </div>
             ))}

@@ -12,7 +12,7 @@ const Notification = ({ message, onClose }) => {
   }, [onClose]);
 
   return (
-    <div className="fixed bottom-4 right-4 bg-green-500 text-white px-9 py-6 rounded-lg shadow-lg flex items-center space-x-2 animate-fade-in">
+    <div className="fixed bottom-4 right-4 bg-green-500 text-white px-9 py-6 rounded-md shadow-lg flex items-center space-x-2 animate-fade-in">
       <svg
         xmlns="http://www.w3.org/2000/svg"
         className="h-6 w-6"

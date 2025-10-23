@@ -231,7 +231,7 @@ export default function Home() {
   };
 
   return (
-    <main className="section flex flex-col gap-y-10 lg:gap-y-14">
+    <main className="section flex flex-col gap-y-14 lg:gap-y-24">
       {/* HERO and ABOUT */}
       <div className="bg-white">
         {/* HERO */}
@@ -335,8 +335,8 @@ export default function Home() {
                   Notre mission est simple : offrir des services de toiture de
                   qualité supérieure avec un professionnalisme irréprochable.
                   Nous croyons que chaque projet mérite une attention
-                  particulière et une exécution impeccable. Vos toits méritent
-                  les meilleures mains.
+                  particulière et une exécution impeccable. Vos toits les
+                  meilleures mains.
                 </p>
               </div>
               {/* <a
@@ -354,7 +354,7 @@ export default function Home() {
           <div className="flex flex-col lg:flex-row gap-x-12">
             {/* image */}
             <Image
-              className="rounded-md hidden lg:block w-96 object-cover"
+              className="rounded-sm hidden lg:block w-96 object-cover"
               src={AboutImage}
               alt=""
             />
@@ -515,7 +515,7 @@ export default function Home() {
 
       {/* BRANDs and certifications */}
       <section className="container px-5 mx-auto flex flex-col items-center max-w-screen-lg gap-y-6">
-        <h3 className="h4 !text-2xl text-center">
+        <h3 className="h3 !text-3xl text-center">
           WD Toitures, <span className="text-[--primary-color]">experts</span>{" "}
           en toitures, démmoussage et isolation
         </h3>
@@ -555,7 +555,7 @@ export default function Home() {
                   alt={`Slide ${index}`}
                   width={300}
                   height={200}
-                  className="rounded-lg object-scale-down px-4"
+                  className="rounded-md object-scale-down px-4"
                 />
               </div>
             ))}

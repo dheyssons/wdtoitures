@@ -114,7 +114,7 @@ export default function Header() {
           <button
             type="button"
             onClick={() => setMobileMenuOpen(true)}
-            className="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700"
+            className="-m-2.5 inline-flex items-center justify-center rounded-sm p-2.5 text-gray-700"
           >
             <span className="sr-only">Open main menu</span>
             <Bars3Icon aria-hidden="true" color="#000000" className="size-10" />
@@ -181,9 +181,9 @@ export default function Header() {
                       {services.map((item) => (
                         <div
                           key={item.name}
-                          className="group relative flex items-center gap-x-6 rounded-lg p-4 text-md/6"
+                          className="group relative flex items-center gap-x-6 rounded-md p-4 text-md/6"
                         >
-                          {/* <div className="flex size-11 flex-none items-center justify-center rounded-lg bg-gray-50">
+                          {/* <div className="flex size-11 flex-none items-center justify-center rounded-md bg-gray-50">
                               <item.icon aria-hidden="true" className="size-6 text-gray-600 group-hover:text-[--primary-color]" />
                             </div> */}
                           <div className="flex-auto">
@@ -266,7 +266,7 @@ export default function Header() {
             <button
               type="button"
               onClick={() => setMobileMenuOpen(false)}
-              className="-m-2.5 rounded-md p-2.5 text-gray-700"
+              className="-m-2.5 rounded-sm p-2.5 text-gray-700"
             >
               <span className="sr-only">Close menu</span>
               <XMarkIcon aria-hidden="true" className="size-6" />
@@ -278,16 +278,16 @@ export default function Header() {
                 <a
                   title="home"
                   href="/"
-                  className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50"
+                  className="-mx-3 block rounded-md px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50"
                 >
                   ACCUEIL
                 </a>
-                {/* <a title='nos services' onClick={() => setMobileMenuOpen(false)} href="/services" className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50">
+                {/* <a title='nos services' onClick={() => setMobileMenuOpen(false)} href="/services" className="-mx-3 block rounded-md px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50">
                     ONZE DIENSTEN
                   </a> */}
 
                 <Disclosure as="div" className="-mx-3">
-                  <DisclosureButton className="group flex w-full items-center justify-between rounded-lg py-2 pl-3 pr-3.5 text-base/7 font-semibold text-gray-900 hover:bg-gray-50">
+                  <DisclosureButton className="group flex w-full items-center justify-between rounded-md py-2 pl-3 pr-3.5 text-base/7 font-semibold text-gray-900 hover:bg-gray-50">
                     ONZE DIENSTEN
                     <ChevronDownIcon
                       aria-hidden="true"
@@ -300,7 +300,7 @@ export default function Header() {
                         key={item.name}
                         as="a"
                         href={item.href}
-                        className="block rounded-lg py-2 pl-6 pr-3 text-sm/7 font-semibold text-gray-900 hover:bg-gray-50"
+                        className="block rounded-md py-2 pl-6 pr-3 text-sm/7 font-semibold text-gray-900 hover:bg-gray-50"
                       >
                         <div className="flex flex-row gap-x-2">
                           {/* <item.icon aria-hidden="true" className="size-6 text-gray-600 group-hover:text-[--primary-color]" /> */}
@@ -313,21 +313,21 @@ export default function Header() {
                 <a
                   title="aboutus"
                   href="/about"
-                  className="-mx-3 hidden rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50"
+                  className="-mx-3 hidden rounded-md px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50"
                 >
                   QUI SOMMES-NOUS
                 </a>
                 <a
                   title="portfolio"
                   href="/portfolio"
-                  className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50"
+                  className="-mx-3 block rounded-md px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50"
                 >
                   PROJETS
                 </a>
                 <a
                   title="contact"
                   href="/contact"
-                  className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50"
+                  className="-mx-3 block rounded-md px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50"
                 >
                   CONTACT
                 </a>

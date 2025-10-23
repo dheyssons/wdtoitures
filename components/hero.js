@@ -302,8 +302,7 @@ export default function Hero() {
                 Notre mission est simple : offrir des services de toiture de
                 qualité supérieure avec un professionnalisme irréprochable. Nous
                 croyons que chaque projet mérite une attention particulière et
-                une exécution impeccable. Vos toits méritent les meilleures
-                mains.
+                une exécution impeccable. Vos to mains.
               </p>
             </div>
             {/* <a
@@ -321,7 +320,7 @@ export default function Hero() {
         <div className="flex flex-col lg:flex-row gap-x-12">
           {/* image */}
           <Image
-            className="rounded-md hidden lg:block w-96 object-cover"
+            className="rounded-sm hidden lg:block w-96 object-cover"
             src={AboutImage}
             alt=""
           />

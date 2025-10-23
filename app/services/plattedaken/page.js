@@ -60,7 +60,7 @@ export default function Plattedaken() {
               </div>
 
               {/* Imagem */}
-              <div className="rounded-md max-w-lg overflow-hidden shadow-md">
+              <div className="rounded-sm max-w-lg overflow-hidden shadow-md">
                 <Image
                   src={PlattedakenImage} // Substitua pela imagem correta
                   alt="Platte daken"
@@ -84,7 +84,7 @@ export default function Plattedaken() {
           {/* Lista de Perguntas e Respostas */}
           <div className="space-y-4 max-w-2xl mx-auto">
             {/* Pergunta 1 */}
-            <div className="bg-white p-6 rounded-lg shadow-sm">
+            <div className="bg-white p-6 rounded-md shadow-sm">
               <h4 className="text-xl font-semibold text-[--primary-color] mb-2">
                 Quels sont les avantages d'un toit plat ?
               </h4>
@@ -96,7 +96,7 @@ export default function Plattedaken() {
             </div>
 
             {/* Pergunta 2 */}
-            <div className="bg-white p-6 rounded-lg shadow-sm">
+            <div className="bg-white p-6 rounded-md shadow-sm">
               <h4 className="text-xl font-semibold text-[--primary-color] mb-2">
                 Comment l'évacuation des eaux pluviales est‑elle gérée pour un
                 toit plat ?
@@ -109,7 +109,7 @@ export default function Plattedaken() {
             </div>
 
             {/* Pergunta 3 */}
-            <div className="bg-white p-6 rounded-lg shadow-sm">
+            <div className="bg-white p-6 rounded-md shadow-sm">
               <h4 className="text-xl font-semibold text-[--primary-color] mb-2">
                 Quels matériaux sont utilisés pour la couverture des toits
                 plats ?
@@ -124,7 +124,7 @@ export default function Plattedaken() {
             </div>
 
             {/* Pergunta 4 */}
-            <div className="bg-white p-6 rounded-lg shadow-sm">
+            <div className="bg-white p-6 rounded-md shadow-sm">
               <h4 className="text-xl font-semibold text-[--primary-color] mb-2">
                 Un toit plat est‑il adapté à tous les bâtiments ?
               </h4>
@@ -136,7 +136,7 @@ export default function Plattedaken() {
             </div>
 
             {/* Pergunta 5 */}
-            <div className="bg-white p-6 rounded-lg shadow-sm">
+            <div className="bg-white p-6 rounded-md shadow-sm">
               <h4 className="text-xl font-semibold text-[--primary-color] mb-2">
                 Quels sont les points d'attention principaux pour un toit plat ?
               </h4>

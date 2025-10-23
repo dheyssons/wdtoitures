@@ -2,14 +2,14 @@ import Counter from "./counter";
 
 export default function Whyus() {
   return (
-    <div className="flex flex-col items-center bg-gray-50 py-12">
+    <div className="flex flex-col items-center bg-gray-50 py-12 bg-[url('../public/home.webp')] lg:bg-[url('../public/home.webp')] bg-cover bg-no-repeat">
       <div className="container mx-auto max-w-screen-xl px-4">
-        <h3 className="text-3xl font-bold  text-center mb-8">
+        <h3 className="text-5xl font-bold text-white text-center mb-8">
           Pourquoi nous choisir ?
         </h3>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           {/* Benefício 1 */}
-          <div className="flex flex-col items-center text-center">
+          <div className="flex flex-col items-center text-center rounded-sm bg-white p-4">
             {/* <BiSolidLeaf className="text-[--primary-color] w-8 h-8"/> */}
             <svg
               fill="#101010"
@@ -28,7 +28,7 @@ export default function Whyus() {
             </p>
           </div>
           {/* Benefício 2 */}
-          <div className=" flex flex-col items-center text-center shadow-md rounded-md p-4">
+          <div className="flex flex-col items-center text-center shadow-md rounded-sm bg-white p-4">
             <Counter target={5} duration={3000} />
             <h4 className="text-xl font-semibold text-[--primary-color] mb-2">
               Expérience
@@ -39,7 +39,7 @@ export default function Whyus() {
             </p>
           </div>
           {/* Benefício 3 */}
-          <div className="flex flex-col items-center text-center">
+          <div className="flex flex-col items-center text-center rounded-sm p-4 bg-white">
             {/* <BsShieldFillCheck className="text-[--primary-color] w-8 h-8" /> */}
             <svg
               fill="#101010"

@@ -70,7 +70,7 @@ export default function Groendaken() {
               </div>
 
               {/* Imagem */}
-              <div className="rounded-md max-w-md overflow-hidden shadow-md">
+              <div className="rounded-sm max-w-md overflow-hidden shadow-md">
                 <Image
                   src={GroendakenImage}
                   alt="Groendaken"
@@ -91,7 +91,7 @@ export default function Groendaken() {
           </h3>
           <div className="space-y-4 max-w-2xl mx-auto">
             {/* Pergunta 1 */}
-            <div className="bg-white p-6 rounded-lg shadow-sm">
+            <div className="bg-white p-6 rounded-md shadow-sm">
               <h4 className="text-xl font-semibold text-[--primary-color] mb-2">
                 Comment entretenir une toiture végétalisée ?
               </h4>
@@ -102,7 +102,7 @@ export default function Groendaken() {
               </p>
             </div>
             {/* Pergunta 2 */}
-            <div className="bg-white p-6 rounded-lg shadow-sm">
+            <div className="bg-white p-6 rounded-md shadow-sm">
               <h4 className="text-xl font-semibold text-[--primary-color] mb-2">
                 Une toiture végétalisée convient‑elle à tous les toits ?
               </h4>
@@ -113,7 +113,7 @@ export default function Groendaken() {
               </p>
             </div>
             {/* Pergunta 3 */}
-            <div className="bg-white p-6 rounded-lg shadow-sm">
+            <div className="bg-white p-6 rounded-md shadow-sm">
               <h4 className="text-xl font-semibold text-[--primary-color] mb-2">
                 Quel is le coût d'une toiture végétalisée ?
               </h4>

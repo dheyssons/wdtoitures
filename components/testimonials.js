@@ -9,7 +9,7 @@ export default function Testimonials() {
         </h3>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {/* Depoimento 1 */}
-          <div className="bg-gray-50 p-6 rounded-lg shadow-sm flex flex-col gap-y-3">
+          <div className="bg-gray-50 p-6 rounded-md shadow-sm flex flex-col gap-y-3">
             <div className="flex flex-row gap-x-1">
               <Star></Star>
               <Star></Star>
@@ -33,7 +33,7 @@ export default function Testimonials() {
             </p>
           </div>
           {/* Depoimento 2 */}
-          <div className="bg-gray-50 p-6 rounded-lg shadow-sm flex flex-col gap-y-3">
+          <div className="bg-gray-50 p-6 rounded-md shadow-sm flex flex-col gap-y-3">
             <div className="flex flex-row gap-x-1">
               <Star></Star>
               <Star></Star>
@@ -50,7 +50,7 @@ export default function Testimonials() {
             </p>
           </div>
           {/* Depoimento 3 */}
-          <div className="bg-gray-50 p-6 rounded-lg shadow-sm flex flex-col gap-y-3 ">
+          <div className="bg-gray-50 p-6 rounded-md shadow-sm flex flex-col gap-y-3 ">
             <div className="flex flex-row gap-x-1">
               <Star></Star>
               <Star></Star>

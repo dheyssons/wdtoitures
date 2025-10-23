@@ -63,7 +63,7 @@ export default function Gevelbekleding() {
               </div>
 
               {/* Imagem */}
-              <div className="rounded-md max-w-lg overflow-hidden shadow-md">
+              <div className="rounded-sm max-w-lg overflow-hidden shadow-md">
                 <Image
                   src={GevelbekledingImage} // Substitua pela imagem correta
                   alt="Revêtement de façade"
@@ -87,7 +87,7 @@ export default function Gevelbekleding() {
           {/* Lista de Perguntas e Respostas */}
           <div className="space-y-4 max-w-2xl mx-auto">
             {/* Pergunta 1 */}
-            <div className="bg-white p-6 rounded-lg shadow-sm">
+            <div className="bg-white p-6 rounded-md shadow-sm">
               <h4 className="text-xl font-semibold text-[--primary-color] mb-2">
                 Qu'est‑ce que le revêtement de façade ?
               </h4>
@@ -100,7 +100,7 @@ export default function Gevelbekleding() {
             </div>
 
             {/* Pergunta 2 */}
-            <div className="bg-white p-6 rounded-lg shadow-sm">
+            <div className="bg-white p-6 rounded-md shadow-sm">
               <h4 className="text-xl font-semibold text-[--primary-color] mb-2">
                 Quels matériaux peuvent être utilisés pour le revêtement de
                 façade ?
@@ -120,7 +120,7 @@ export default function Gevelbekleding() {
             </div>
 
             {/* Pergunta 3 */}
-            <div className="bg-white p-6 rounded-lg shadow-sm">
+            <div className="bg-white p-6 rounded-md shadow-sm">
               <h4 className="text-xl font-semibold text-[--primary-color] mb-2">
                 Comment entretenir le revêtement de façade ?
               </h4>
@@ -134,7 +134,7 @@ export default function Gevelbekleding() {
             </div>
 
             {/* Pergunta 4 */}
-            <div className="bg-white p-6 rounded-lg shadow-sm">
+            <div className="bg-white p-6 rounded-md shadow-sm">
               <h4 className="text-xl font-semibold text-[--primary-color] mb-2">
                 Le revêtement de façade convient‑il à tous les bâtiments ?
               </h4>
@@ -146,7 +146,7 @@ export default function Gevelbekleding() {
             </div>
 
             {/* Pergunta 5 */}
-            <div className="bg-white p-6 rounded-lg shadow-sm">
+            <div className="bg-white p-6 rounded-md shadow-sm">
               <h4 className="text-xl font-semibold text-[--primary-color] mb-2">
                 Quels sont les avantages du revêtement de façade ?
               </h4>

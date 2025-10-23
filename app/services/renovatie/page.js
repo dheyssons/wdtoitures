@@ -74,7 +74,7 @@ export default function Renovatie() {
               </div>
 
               {/* Imagem */}
-              <div className="rounded-md max-w-lg overflow-hidden shadow-md">
+              <div className="rounded-sm max-w-lg overflow-hidden shadow-md">
                 <Image
                   src={RenovatieImage} // Substitua pela imagem correta
                   alt="Renovatie"
@@ -98,7 +98,7 @@ export default function Renovatie() {
           {/* Lista de Perguntas e Respostas */}
           <div className="space-y-4 max-w-2xl mx-auto">
             {/* Pergunta 1 */}
-            <div className="bg-white p-6 rounded-lg shadow-sm">
+            <div className="bg-white p-6 rounded-md shadow-sm">
               <h4 className="text-xl font-semibold text-[--primary-color] mb-2">
                 Quels sont les avantages d'une rénovation ?
               </h4>
@@ -112,7 +112,7 @@ export default function Renovatie() {
             </div>
 
             {/* Pergunta 2 */}
-            <div className="bg-white p-6 rounded-lg shadow-sm">
+            <div className="bg-white p-6 rounded-md shadow-sm">
               <h4 className="text-xl font-semibold text-[--primary-color] mb-2">
                 Quels services proposez‑vous pour une rénovation ?
               </h4>
@@ -124,7 +124,7 @@ export default function Renovatie() {
             </div>
 
             {/* Pergunta 3 */}
-            <div className="bg-white p-6 rounded-lg shadow-sm">
+            <div className="bg-white p-6 rounded-md shadow-sm">
               <h4 className="text-xl font-semibold text-[--primary-color] mb-2">
                 Pouvez‑vous rénover des bâtiments historiques ?
               </h4>
@@ -136,7 +136,7 @@ export default function Renovatie() {
             </div>
 
             {/* Pergunta 4 */}
-            <div className="bg-white p-6 rounded-lg shadow-sm">
+            <div className="bg-white p-6 rounded-md shadow-sm">
               <h4 className="text-xl font-semibold text-[--primary-color] mb-2">
                 Comment la rénovation améliore‑t‑elle l'efficacité énergétique ?
               </h4>
@@ -155,7 +155,7 @@ export default function Renovatie() {
             </div>
 
             {/* Pergunta 5 */}
-            <div className="bg-white p-6 rounded-lg shadow-sm">
+            <div className="bg-white p-6 rounded-md shadow-sm">
               <h4 className="text-xl font-semibold text-[--primary-color] mb-2">
                 Pourquoi choisir WD Toitures ?
               </h4>

@@ -100,7 +100,7 @@ export default function Daktimmer() {
               </div>
 
               {/* Imagem */}
-              <div className="rounded-md max-w-lg overflow-hidden shadow-md">
+              <div className="rounded-sm max-w-lg overflow-hidden shadow-md">
                 <Image
                   src={DemoussageImage} // Substitua pela imagem correta
                   alt="Démoussage"

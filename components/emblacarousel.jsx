@@ -14,7 +14,7 @@ export function EmblaCarousel() {
           <img
             loading="lazy"
             alt=""
-            className="max-w-[22rem] h-[26rem] object-cover rounded-md hidden md:flex"
+            className="max-w-[22rem] h-[26rem] object-cover rounded-sm hidden md:flex"
             src="images/projet1.webp"
           ></img>
         </div>
@@ -22,7 +22,7 @@ export function EmblaCarousel() {
           <img
             loading="lazy"
             alt=""
-            className="w-full max-w-[22rem] h-[26rem] object-cover rounded-md hidden md:flex"
+            className="w-full max-w-[22rem] h-[26rem] object-cover rounded-sm hidden md:flex"
             src="images/projet2.webp"
           ></img>
         </div>
@@ -30,7 +30,7 @@ export function EmblaCarousel() {
           <img
             loading="lazy"
             alt=""
-            className="max-w-[22rem] h-[26rem] object-cover rounded-md hidden md:flex"
+            className="max-w-[22rem] h-[26rem] object-cover rounded-sm hidden md:flex"
             src="images/projet3.webp"
           ></img>
         </div>
@@ -38,7 +38,7 @@ export function EmblaCarousel() {
           <img
             loading="lazy"
             alt=""
-            className="max-w-[22rem] h-[26rem] object-cover rounded-md hidden md:flex"
+            className="max-w-[22rem] h-[26rem] object-cover rounded-sm hidden md:flex"
             src="images/projet4.webp"
           ></img>
         </div>
@@ -46,7 +46,7 @@ export function EmblaCarousel() {
           <img
             loading="lazy"
             alt=""
-            className="max-w-[22rem] h-[26rem] object-cover rounded-md hidden md:flex"
+            className="max-w-[22rem] h-[26rem] object-cover rounded-sm hidden md:flex"
             src="images/projet5.webp"
           ></img>
         </div>
