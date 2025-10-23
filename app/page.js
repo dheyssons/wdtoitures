@@ -198,16 +198,16 @@ export default function Home() {
       <div className="card-services">
         <img
           className="image-services"
-          alt="rénovation"
+          alt="démoussage"
           src="images/services/renovation.webp"
           loading="lazy"
         ></img>
         <div className="flex flex-col gap-y-3 justify-around h-36">
           <div className="overflow-hidden max-w-max lg:h-56">
-            <h4 className="h4">Rénovation</h4>
+            <h4 className="h4">Démoussage</h4>
             <p className="p small">
-              Services de rénovation pour réparer, moderniser et améliorer
-              l'efficacité énergétique.
+              Services de démoussage pour nettoyer, protéger et prolonger la
+              durée de vie de votre toiture.
             </p>
           </div>
         </div>

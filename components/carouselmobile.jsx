@@ -18,7 +18,7 @@ const CarouselMobile = ({ children }) => {
   };
 
   return (
-    <div className="lg:hidden relative w-full max-w-full overflow-hidden">
+    <div className="lg:hidden relative h-[36rem] w-full max-w-full overflow-hidden">
       <AnimatePresence mode="wait">
         <motion.div
           key={index} // Esse key precisa ser único para cada item
@@ -26,7 +26,7 @@ const CarouselMobile = ({ children }) => {
           animate={{ opacity: 1, x: 0 }}
           exit={{ opacity: 0, x: -50 }}
           transition={{ duration: 0.5 }}
-          className="w-full flex justify-center"
+          className="w-full object-cover object-center flex justify-center"
         >
           {children[index]}
         </motion.div>

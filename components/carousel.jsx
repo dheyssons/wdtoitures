@@ -18,7 +18,7 @@ const Carousel = ({ children }) => {
   };
 
   return (
-    <div className="hidden lg:block relative w-full max-w-screen-3xl">
+    <div className="hidden lg:block relative h-[36rem] w-full max-w-full overflow-hidden">
       <AnimatePresence mode="wait">
         <motion.div
           key={index} // Esse key precisa ser único para cada item
@@ -26,13 +26,13 @@ const Carousel = ({ children }) => {
           animate={{ opacity: 1, x: 0 }}
           exit={{ opacity: 1, x: -50 }}
           transition={{ duration: 0.2 }}
-          className="w-full flex justify-center"
+          className="w-full object-cover object-center flex justify-center"
         >
           {children[index]}
         </motion.div>
       </AnimatePresence>
 
-      {/* <button
+      <button
         title="left button"
         onClick={prevSlide}
         className="absolute left-2 top-1/2 transform -translate-y-1/2 bg-[--primary-color] bg-gradient-to-r from-[#1c1c1c] to-transparent to-70% text-white p-2 rounded-full shadow-lg hover:bg-[#4c4c4c]"
@@ -46,7 +46,7 @@ const Carousel = ({ children }) => {
         className="absolute right-2 top-1/2 transform -translate-y-1/2 bg-[--primary-color] bg-gradient-to-r from-[#1c1c1c] to-transparent to-70% text-white p-2 rounded-full shadow-lg hover:bg-[#4c4c4c]"
       >
         <BiChevronRight size={32} />
-      </button> */}
+      </button>
     </div>
   );
 };

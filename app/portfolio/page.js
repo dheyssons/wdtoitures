@@ -24,6 +24,12 @@ import Sint3_2 from "@/public/images/portfolio/sintkatelijnewaver2/image3.webp";
 import Sint4_2 from "@/public/images/portfolio/sintkatelijnewaver2/image4.webp";
 import Sint5_2 from "@/public/images/portfolio/sintkatelijnewaver2/image5.webp";
 
+import Zellik1 from "@/public/images/portfolio/zellik1/demoussage.webp";
+import Zellik2 from "@/public/images/portfolio/zellik1/demoussage1.webp";
+import Zellik3 from "@/public/images/portfolio/zellik1/demoussage2.webp";
+import Zellik4 from "@/public/images/portfolio/zellik1/demoussage3.webp";
+import Zellik5 from "@/public/images/portfolio/zellik1/demoussage4.webp";
+
 import Carousel from "@/components/carousel";
 import CarouselMobile from "@/components/carouselmobile";
 import Whyus from "@/components/whyus";
@@ -102,6 +108,37 @@ const sintMobile2 = [
   </div>,
   <div key="slide5" className="flex flex-row gap-x-10">
     <Image className="max-w-sm lg:max-w-lg rounded-md" src={Sint5_2} alt="" />
+  </div>,
+];
+
+const zellik1 = [
+  <div key="slide1" className="flex flex-row gap-x-10">
+    <Image className="max-w-md rounded-md" src={Zellik1} alt="" />
+    <Image className="max-w-md rounded-md" src={Zellik2} alt="" />
+  </div>,
+  <div key="slide2" className="flex flex-row gap-x-10">
+    <Image className="max-w-md rounded-md" src={Zellik3} alt="" />
+    <Image className="max-w-md rounded-md" src={Zellik4} alt="" />
+  </div>,
+  <div key="slide3" className="flex flex-row gap-x-10">
+    <Image className="max-w-md rounded-md" src={Zellik5} alt="" />
+  </div>,
+];
+const zellikMobile1 = [
+  <div key="slide1" className="flex flex-row gap-x-10">
+    <Image className="max-w-sm lg:max-w-md rounded-md" src={Zellik1} alt="" />
+  </div>,
+  <div key="slide2" className="flex flex-row gap-x-10">
+    <Image className="max-w-sm lg:max-w-md rounded-md" src={Zellik2} alt="" />
+  </div>,
+  <div key="slide3" className="flex flex-row gap-x-10">
+    <Image className="max-w-sm lg:max-w-md rounded-md" src={Zellik3} alt="" />
+  </div>,
+  <div key="slide4" className="flex flex-row gap-x-10">
+    <Image className="max-w-sm lg:max-w-md rounded-md" src={Zellik4} alt="" />
+  </div>,
+  <div key="slide5" className="flex flex-row gap-x-10">
+    <Image className="max-w-sm lg:max-w-md rounded-md" src={Zellik5} alt="" />
   </div>,
 ];
 
@@ -199,7 +236,7 @@ export default function Portfolio() {
               <CarouselMobile>{sintMobile1}</CarouselMobile>
             </div>
 
-            {/* zinguerie et couverture */}
+            {/* finition */}
             <div className="flex flex-col gap-y-10">
               <div>
                 <div className="flex flex-row items-center">
@@ -214,6 +251,20 @@ export default function Portfolio() {
 
               <Carousel>{sint2}</Carousel>
               <CarouselMobile>{sintMobile2}</CarouselMobile>
+            </div>
+
+            {/* demoussage */}
+            <div className="flex flex-col gap-y-10">
+              <div>
+                <div className="flex flex-row items-center">
+                  <div className="accent"></div>
+                  <h5 className="h6 !text-[--primary-color]"> Zellik</h5>
+                </div>
+                <h3 className="h3">Démoussage</h3>
+              </div>
+
+              <Carousel>{zellik1}</Carousel>
+              <CarouselMobile>{zellikMobile1}</CarouselMobile>
             </div>
           </div>
         </div>
